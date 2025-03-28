@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppEspectro/IP018 8-9/IP018/app/src/main/res/layout/camara_pruebas.xml" value="0.3484375" />
+        <entry key="..\:/AppEspectro/IP018 8-9/IP018/app/src/main/res/layout/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.3484375" />
+        <entry key="..\:/AppEspectro/IP018 8-9/IP018/app/src/main/res/layout/fragment_parametros_calibracion_intensidad_r_g_b.xml" value="0.3484375" />
+        <entry key="..\:/AppEspectro/IP018 8-9/IP018/app/src/main/res/layout/imagen_espectro.xml" value="0.3484375" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/drawable/ic_photo.xml" value="0.192" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/layout/absorbancia_imagen.xml" value="0.3625" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/layout/captura.xml" value="0.22669956140350878" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/layout/fragment_captura.xml" value="0.3484375" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.3625" />
+        <entry key="..\:/Espectrometria Tomas y Nico/DataDiaDia/10-11-22/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.3625" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 11-9/IP018/app/src/main/res/layout/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.2557924003707136" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 13-9/IP018/app/src/main/res/layout/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 15-9/IP018/app/src/main/res/layout/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 15-9/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 20-9/IP018/app/src/main/res/layout/absorbancia_calib.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 20-9/IP018/app/src/main/res/layout/absorbancia_int_cero.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 20-9/IP018/app/src/main/res/layout/absorbancia_muestra.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 20-9/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.24139492753623187" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 27-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/camara_pruebas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 27-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 27-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/absorbancia_calib.xml" value="0.18802083333333333" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.25" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout-land/camara_pruebas.xml" value="0.31040564373897706" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout-land/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.31040564373897706" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout-land/fragment_camera.xml" value="0.1591710758377425" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout-land/fragment_parametros_calibracion_intensidad_r_g_b.xml" value="0.33" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout-land/menu_inicial.xml" value="0.31040564373897706" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/absorbancia_imagen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/absorbancia_int_cero.xml" value="0.18802083333333333" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/absorbancia_muestra.xml" value="0.18802083333333333" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/camara_pruebas.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/espectro_calib.xml" value="0.33" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/fragment_analisis_calibracion_intensidad_r_g_b.xml" value="0.3038949275362319" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/fragment_camera.xml" value="0.5" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/fragment_parametros_calibracion_intensidad_r_g_b.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/imagen_espectro.xml" value="0.18802083333333333" />
+        <entry key="..\:/Espectrometria Tomas y Nico/IP018 labo/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/Trabajo en casa/IP018 23-10-22/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Espectrometria Tomas y Nico/Trabajo en casa/IP018 23-10-22/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/drawable/tick.xml" value="0.26" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/absorbancia_imagen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/absorbancia_muestra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/camara_pruebas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/captura.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/fragment_perfiles_r_g_b.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/10-11-22/10-11-22/IP018/app/src/main/res/layout/imagen_espectro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/absorbancia_calib.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/absorbancia_imagen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/absorbancia_int_cero.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/calibracion_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/fragment_medir_absorbancia_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/menu_inicial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/Desktop/IP018 29-9 posModificacionAbsorbancia/IP018/app/src/main/res/layout/selectorlayout.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

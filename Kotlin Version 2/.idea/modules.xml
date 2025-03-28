@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin_Version_2.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin_Version_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kotlin_Version_2.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Kotlin_Version_2.utils.unitTest.iml" />
+    </modules>
+  </component>
+</project>
