@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.camera2.basic.app-mergeDebugResources-47:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\dbefb149ec95a08fa5bc97a0d3947cb8\\transformed\\material-1.4.0-beta01\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\lucio\\.gradle\\caches\\transforms-3\\dd71a120c576c7d8b5a197e379a6ed39\\transformed\\material-1.4.0-beta01\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\335100e8bc0e492dbe67a27d330f4c92\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\lucio\\.gradle\\caches\\transforms-3\\d5a9a64ef2d67a9c026e0d344e29305a\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

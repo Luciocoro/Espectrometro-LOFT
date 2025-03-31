@@ -6,159 +6,159 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml
+8-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml
+9-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml
 10
 11    <!-- Permission declarations -->
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:8:5-65
-12-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:8:22-62
+12-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:8:5-65
+12-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:8:22-62
 13
 14    <!-- A camera with (optional) RAW capability is required to use this application -->
 15    <uses-feature android:name="android.hardware.camera.any" />
-15-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:11:5-64
-15-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:11:19-61
+15-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:11:5-64
+15-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:11:19-61
 16    <uses-feature
-16-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:5-89
+16-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:5-89
 17        android:name="android.hardware.camera.raw"
-17-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:19-61
+17-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:19-61
 18        android:required="false" />
-18-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:62-86
+18-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:12:62-86
 19
 20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:13:5-14:40
-20-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:13:22-78
+20-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:13:5-14:40
+20-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:13:22-78
 21
 22    <permission
-22-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+22-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
 23        android:name="com.android.example.camera2.basic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-23-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+23-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
 24        android:protectionLevel="signature" />
-24-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+24-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 25
 26    <uses-permission android:name="com.android.example.camera2.basic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-26-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-26-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+26-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:16:5-45:19
+28-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:16:5-45:19
 29        android:allowBackup="true"
-29-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:17:9-35
+29-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:17:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.10.1] C:\Users\Lucio\.gradle\caches\transforms-3\f5316e47cba75130491361b954e4faa0\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+30-->[androidx.core:core:1.10.1] C:\Users\lucio\.gradle\caches\transforms-3\e9345ac1220403cb6c0c421fc5c49ee3\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:fullBackupContent="true"
-32-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:18:9-41
+32-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:18:9-41
 33        android:icon="@mipmap/ic_icono1_round"
-33-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:20:9-47
+33-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:20:9-47
 34        android:label="@string/app_name"
-34-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:19:9-41
+34-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:19:9-41
 35        android:testOnly="true" >
 36        <activity
-36-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:23:9-35:20
+36-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:23:9-35:20
 37            android:name="com.example.android.camera2.basic.CameraActivity"
-37-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:24:13-76
+37-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:24:13-76
 38            android:clearTaskOnLaunch="true"
-38-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:25:13-45
+38-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:25:13-45
 39            android:exported="true"
-39-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:27:13-36
+39-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:27:13-36
 40            android:theme="@style/AppTheme" >
-40-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:26:13-44
+40-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:26:13-44
 41
 42            <!-- Main app intent filter -->
 43            <intent-filter>
-43-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:30:13-33:29
+43-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:30:13-33:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:31:17-69
-44-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:31:25-66
+44-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:31:17-69
+44-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:31:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:32:17-77
-46-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:32:27-74
+46-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:32:17-77
+46-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:32:27-74
 47            </intent-filter>
 48        </activity>
 49
 50        <provider
-50-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:36:9-44:20
+50-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:36:9-44:20
 51            android:name="androidx.core.content.FileProvider"
-51-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:38:13-62
+51-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:38:13-62
 52            android:authorities="com.example.android.camera2.basic.fileprovider"
-52-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:37:13-81
+52-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:37:13-81
 53            android:exported="false"
-53-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:40:13-37
+53-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:40:13-37
 54            android:grantUriPermissions="true" >
-54-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:39:13-47
+54-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:39:13-47
 55            <meta-data
-55-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:41:13-43:57
+55-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:41:13-43:57
 56                android:name="android.support.FILE_PROVIDER_PATHS"
-56-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:42:17-67
+56-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:42:17-67
 57                android:resource="@xml/provider_paths" />
-57-->C:\Users\Lucio\Documents\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:43:17-55
+57-->C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Kotlin Version 2\app\src\main\AndroidManifest.xml:43:17-55
 58        </provider>
 59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
 61            android:authorities="com.android.example.camera2.basic.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lucio\.gradle\caches\transforms-3\eef24bea4e96f145342722dbc8020820\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lucio\.gradle\caches\transforms-3\c19e5cdb95e5e38c51dafd762f7a9b88\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Lucio\.gradle\caches\transforms-3\16a0876c90e1c47faf5ce26592fe4206\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lucio\.gradle\caches\transforms-3\93ed9c7fbbe4989f5f570f6df157bc59\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
 67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Lucio\.gradle\caches\transforms-3\16a0876c90e1c47faf5ce26592fe4206\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lucio\.gradle\caches\transforms-3\93ed9c7fbbe4989f5f570f6df157bc59\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Lucio\.gradle\caches\transforms-3\16a0876c90e1c47faf5ce26592fe4206\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\lucio\.gradle\caches\transforms-3\93ed9c7fbbe4989f5f570f6df157bc59\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 69            <meta-data
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 71                android:value="androidx.startup" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 72        </provider>
 73
 74        <receiver
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 76            android:directBootAware="false"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 77            android:enabled="true"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 78            android:exported="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 79            android:permission="android.permission.DUMP" >
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 82            </intent-filter>
 83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 85            </intent-filter>
 86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 88            </intent-filter>
 89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lucio\.gradle\caches\transforms-3\94bafe2dbf58fbccef60761ad1ccb0b7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\lucio\.gradle\caches\transforms-3\24bf784f9f22bcf74647cb62df217d61\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 91            </intent-filter>
 92        </receiver>
 93    </application>
