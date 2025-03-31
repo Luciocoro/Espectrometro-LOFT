@@ -8,7 +8,6 @@
     <string name="btn_medicion">Realizar Medición</string>
     <string name="btn_autorotar">Calibrar</string>
     <string name="siguiente">Siguiente</string>
-
     <string name="descripcion_app">
 \nEsta aplicación permite realizar espectrometría de dos maneras distintas:\n
 \n<b>Medir espectro:</b> \nMedir el espectro de luz de una fuente.
