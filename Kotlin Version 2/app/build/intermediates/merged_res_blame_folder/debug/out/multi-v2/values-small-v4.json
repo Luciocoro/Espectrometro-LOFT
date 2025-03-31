@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.camera2.basic.app-mergeDebugResources-47:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lucio\\.gradle\\caches\\transforms-3\\dbefb149ec95a08fa5bc97a0d3947cb8\\transformed\\material-1.4.0-beta01\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\dbefb149ec95a08fa5bc97a0d3947cb8\\transformed\\material-1.4.0-beta01\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
