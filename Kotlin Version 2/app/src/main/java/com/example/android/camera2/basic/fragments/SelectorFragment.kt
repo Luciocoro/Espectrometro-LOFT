@@ -54,7 +54,7 @@ class SelectorFragment : Fragment() {
 
         // Se define un dialog asociado a la ventana emergente que detalla el texto de
         // selección de cámara
-        var dialog = camarasSelectorInfo()
+        var dialog = CamarasSelectorInfo()
         var fragmentManager = getChildFragmentManager()
 
         dialog.show(fragmentManager, "camarasSelectorInfo")

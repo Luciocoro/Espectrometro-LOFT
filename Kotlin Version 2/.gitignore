@@ -3,6 +3,9 @@
 *.aar
 *.ap_
 
+#Tab Files
+*.tab
+
 # Files for the Dalvik VM
 *.dex
 
@@ -13,6 +16,8 @@
 bin/
 gen/
 out/
+*.bin
+*.at
 
 # Gradle files
 .gradle/
@@ -30,6 +35,7 @@ proguard/
 # IntelliJ/Android Studio
 .idea/
 *.iml
+Kotlin Version 2\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable\
 
 # Keystore files
 *.jks
