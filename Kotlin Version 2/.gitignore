@@ -35,7 +35,7 @@ proguard/
 # IntelliJ/Android Studio
 .idea/
 *.iml
-**//cacheable/
+Kotlin Version 2\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable\
 
 # Keystore files
 *.jks

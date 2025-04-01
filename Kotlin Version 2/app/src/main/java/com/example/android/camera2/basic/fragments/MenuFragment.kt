@@ -20,7 +20,7 @@ import com.example.android.camera.utils.OrientationLiveData
 //import kotlinx.android.synthetic.main.fragment_medir_absorbancia_test.*
 //import kotlinx.android.synthetic.main.menu_inicial.*
 
-/* Este es el fragmento principal. Una vez que diste los permisos y elegiste la camera se abres te menu.
+/* Este es el fragmento principal. Una vez que diste los permisos y elegiste la camera se abre este menu.
 *  Descubri algo buenisimo. En nav_graph.xml podes ver como hacer se relacionan los fragmentos de manera visual.
 
 * */
