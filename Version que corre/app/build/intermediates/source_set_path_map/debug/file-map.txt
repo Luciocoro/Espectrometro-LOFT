@@ -1,53 +1,53 @@
-com.example.android.camera2.basic.app-jetified-android-gif-drawable-1.2.17-0 C:\Users\lucio\.gradle\caches\transforms-3\0c46dc137d3872d14faaabd2a45c4c9c\transformed\jetified-android-gif-drawable-1.2.17\res
-com.example.android.camera2.basic.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-1 C:\Users\lucio\.gradle\caches\transforms-3\0ce83e0c4c78a0e7353c3e39e0b19882\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
-com.example.android.camera2.basic.app-appcompat-1.6.1-2 C:\Users\lucio\.gradle\caches\transforms-3\19111bd431ca92ea71b831a173d283bb\transformed\appcompat-1.6.1\res
-com.example.android.camera2.basic.app-lifecycle-runtime-2.6.1-3 C:\Users\lucio\.gradle\caches\transforms-3\206ef9e5122749b61b322a1546d30a27\transformed\lifecycle-runtime-2.6.1\res
-com.example.android.camera2.basic.app-jetified-emoji2-views-helper-1.2.0-4 C:\Users\lucio\.gradle\caches\transforms-3\29e471e4d4bfd110bb04e3aa1ca49879\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.example.android.camera2.basic.app-navigation-common-ktx-2.5.3-5 C:\Users\lucio\.gradle\caches\transforms-3\2be77578d8e5df6cb14b419347ac792e\transformed\navigation-common-ktx-2.5.3\res
-com.example.android.camera2.basic.app-fragment-1.3.6-6 C:\Users\lucio\.gradle\caches\transforms-3\2c7c36f0ada9e0d0acf82ebca03fe85c\transformed\fragment-1.3.6\res
-com.example.android.camera2.basic.app-jetified-activity-1.6.0-7 C:\Users\lucio\.gradle\caches\transforms-3\2deaff1160c497438f95eb4b20561a1d\transformed\jetified-activity-1.6.0\res
-com.example.android.camera2.basic.app-jetified-lifecycle-runtime-ktx-2.6.1-8 C:\Users\lucio\.gradle\caches\transforms-3\2ed9764f13dc2550d26ef1fccc7dc61d\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
-com.example.android.camera2.basic.app-jetified-profileinstaller-1.3.0-9 C:\Users\lucio\.gradle\caches\transforms-3\2ff849957484c2ff4db4cdde20d45ef8\transformed\jetified-profileinstaller-1.3.0\res
-com.example.android.camera2.basic.app-core-runtime-2.2.0-10 C:\Users\lucio\.gradle\caches\transforms-3\3054a22d9f3162d294b157af3c0683f9\transformed\core-runtime-2.2.0\res
-com.example.android.camera2.basic.app-jetified-appcompat-resources-1.6.1-11 C:\Users\lucio\.gradle\caches\transforms-3\3cdb70bd9f641162f1e1d3cbe70eb7be\transformed\jetified-appcompat-resources-1.6.1\res
-com.example.android.camera2.basic.app-recyclerview-1.3.0-12 C:\Users\lucio\.gradle\caches\transforms-3\43f31e0fe198c77e7126a669fc3bcea2\transformed\recyclerview-1.3.0\res
-com.example.android.camera2.basic.app-material-1.4.0-beta01-13 C:\Users\lucio\.gradle\caches\transforms-3\44cbf52115c7b629ead7db390b2f43b6\transformed\material-1.4.0-beta01\res
-com.example.android.camera2.basic.app-jetified-annotation-experimental-1.3.0-14 C:\Users\lucio\.gradle\caches\transforms-3\4d50d27d6a60e6154795814a9dc6a8be\transformed\jetified-annotation-experimental-1.3.0\res
-com.example.android.camera2.basic.app-lifecycle-livedata-2.6.1-15 C:\Users\lucio\.gradle\caches\transforms-3\507ebd79f1a1e426f0921d9c29d8a0e0\transformed\lifecycle-livedata-2.6.1\res
-com.example.android.camera2.basic.app-media-1.0.0-16 C:\Users\lucio\.gradle\caches\transforms-3\5842952331ac543cf0f13426088755cc\transformed\media-1.0.0\res
-com.example.android.camera2.basic.app-cardview-1.0.0-17 C:\Users\lucio\.gradle\caches\transforms-3\6d188db50a43f47a9e61950fb2b3e9b4\transformed\cardview-1.0.0\res
-com.example.android.camera2.basic.app-transition-1.3.0-18 C:\Users\lucio\.gradle\caches\transforms-3\7041793c007a87410f972a01a3ae0f99\transformed\transition-1.3.0\res
-com.example.android.camera2.basic.app-jetified-customview-poolingcontainer-1.0.0-19 C:\Users\lucio\.gradle\caches\transforms-3\72ab3fc60eab69f5f57db0563c0bd9b7\transformed\jetified-customview-poolingcontainer-1.0.0\res
-com.example.android.camera2.basic.app-navigation-fragment-2.3.5-20 C:\Users\lucio\.gradle\caches\transforms-3\781b145a73506f451f5ee6098704af73\transformed\navigation-fragment-2.3.5\res
-com.example.android.camera2.basic.app-jetified-savedstate-ktx-1.2.1-21 C:\Users\lucio\.gradle\caches\transforms-3\7b1f8143c0a8fa78e1f4f6d74bc58827\transformed\jetified-savedstate-ktx-1.2.1\res
-com.example.android.camera2.basic.app-constraintlayout-2.1.4-22 C:\Users\lucio\.gradle\caches\transforms-3\8b399d1022bd9ce71a94b88d3179923b\transformed\constraintlayout-2.1.4\res
-com.example.android.camera2.basic.app-navigation-ui-ktx-2.5.3-23 C:\Users\lucio\.gradle\caches\transforms-3\8d5351c1f1d47ff58f5227959c82ea0a\transformed\navigation-ui-ktx-2.5.3\res
-com.example.android.camera2.basic.app-drawerlayout-1.1.1-24 C:\Users\lucio\.gradle\caches\transforms-3\9ecbad17a8fc6c2daceba4fb896c4753\transformed\drawerlayout-1.1.1\res
-com.example.android.camera2.basic.app-jetified-startup-runtime-1.1.1-25 C:\Users\lucio\.gradle\caches\transforms-3\a35cf59190e131563c74db9ca3ff413a\transformed\jetified-startup-runtime-1.1.1\res
-com.example.android.camera2.basic.app-lifecycle-livedata-core-2.6.1-26 C:\Users\lucio\.gradle\caches\transforms-3\a4c0d0437cc9b5ddcdf233351f82b614\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.android.camera2.basic.app-navigation-runtime-2.5.3-27 C:\Users\lucio\.gradle\caches\transforms-3\aadbb0c8d43b8839d2edb3c0739f3736\transformed\navigation-runtime-2.5.3\res
-com.example.android.camera2.basic.app-jetified-glide-4.12.0-28 C:\Users\lucio\.gradle\caches\transforms-3\ae18d7768641ccc5ee8b54424925d297\transformed\jetified-glide-4.12.0\res
-com.example.android.camera2.basic.app-jetified-savedstate-1.2.1-29 C:\Users\lucio\.gradle\caches\transforms-3\ae5c422d5b281a8e9652565a88fbac5c\transformed\jetified-savedstate-1.2.1\res
-com.example.android.camera2.basic.app-jetified-lifecycle-livedata-core-ktx-2.6.1-30 C:\Users\lucio\.gradle\caches\transforms-3\af99939ccf5b8e0b691d71a4e6f32c88\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
-com.example.android.camera2.basic.app-lifecycle-viewmodel-2.6.1-31 C:\Users\lucio\.gradle\caches\transforms-3\b4436dbb97d22ff3d7ffe6e8fbfee9ba\transformed\lifecycle-viewmodel-2.6.1\res
-com.example.android.camera2.basic.app-jetified-graphview-4.2.2-32 C:\Users\lucio\.gradle\caches\transforms-3\ba635851abc7846f86d4c917b883671e\transformed\jetified-graphview-4.2.2\res
-com.example.android.camera2.basic.app-core-1.10.1-33 C:\Users\lucio\.gradle\caches\transforms-3\bffe18d53e650fe303e9bd18e01d7702\transformed\core-1.10.1\res
-com.example.android.camera2.basic.app-jetified-core-ktx-1.10.1-34 C:\Users\lucio\.gradle\caches\transforms-3\c681cb34aa22c8213779dd6734953f43\transformed\jetified-core-ktx-1.10.1\res
-com.example.android.camera2.basic.app-jetified-activity-ktx-1.6.0-35 C:\Users\lucio\.gradle\caches\transforms-3\cb9c92d974d9fb3e2c71795656fa36c3\transformed\jetified-activity-ktx-1.6.0\res
-com.example.android.camera2.basic.app-navigation-ui-2.5.3-36 C:\Users\lucio\.gradle\caches\transforms-3\d53562ed4869459533c5fec03ae1430c\transformed\navigation-ui-2.5.3\res
-com.example.android.camera2.basic.app-navigation-common-2.5.3-37 C:\Users\lucio\.gradle\caches\transforms-3\d58338b9d05540f149df08ff2d9f9317\transformed\navigation-common-2.5.3\res
-com.example.android.camera2.basic.app-navigation-runtime-ktx-2.5.3-38 C:\Users\lucio\.gradle\caches\transforms-3\db1342189d9fdf0a172b9f15b911a7f4\transformed\navigation-runtime-ktx-2.5.3\res
-com.example.android.camera2.basic.app-jetified-viewpager2-1.0.0-39 C:\Users\lucio\.gradle\caches\transforms-3\dea2e22bbabd39b64c5af0f8afae15f3\transformed\jetified-viewpager2-1.0.0\res
-com.example.android.camera2.basic.app-jetified-lifecycle-viewmodel-ktx-2.6.1-40 C:\Users\lucio\.gradle\caches\transforms-3\e251a5a963977803f40fe548b8aa35a2\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
-com.example.android.camera2.basic.app-coordinatorlayout-1.1.0-41 C:\Users\lucio\.gradle\caches\transforms-3\ee2784c3a3394049bc82794eb09ea628\transformed\coordinatorlayout-1.1.0\res
-com.example.android.camera2.basic.app-jetified-lifecycle-process-2.6.1-42 C:\Users\lucio\.gradle\caches\transforms-3\f72112c32cf74d1b7e742dbd53d8e431\transformed\jetified-lifecycle-process-2.6.1\res
-com.example.android.camera2.basic.app-jetified-emoji2-1.2.0-43 C:\Users\lucio\.gradle\caches\transforms-3\ffca555f3bbb858980d95aae0c2c2c27\transformed\jetified-emoji2-1.2.0\res
-com.example.android.camera2.basic.app-pngs-44 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\generated\res\pngs\debug
-com.example.android.camera2.basic.app-resValues-45 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\generated\res\resValues\debug
-com.example.android.camera2.basic.app-rs-46 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\generated\res\rs\debug
-com.example.android.camera2.basic.app-mergeDebugResources-47 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.android.camera2.basic.app-mergeDebugResources-48 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.android.camera2.basic.app-merged_res-49 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\build\intermediates\merged_res\debug
-com.example.android.camera2.basic.app-debug-50 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\src\debug\res
-com.example.android.camera2.basic.app-main-51 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\app\src\main\res
-com.example.android.camera2.basic.app-packaged_res-52 C:\Users\lucio\OneDrive\Documentos\UBA\Materias\Labo 6 y 7\Inés\Backups\App\IP018 reducido\utils\build\intermediates\packaged_res\debug
+com.example.android.camera2.basic.app-jetified-annotation-experimental-1.3.0-0 C:\Users\lucio\.gradle\caches\8.10\transforms\00de3066ca463a6ca8bc823c357cf894\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.android.camera2.basic.app-transition-1.3.0-1 C:\Users\lucio\.gradle\caches\8.10\transforms\02410043fe1f2ae6429f450fa6514205\transformed\transition-1.3.0\res
+com.example.android.camera2.basic.app-navigation-common-ktx-2.5.3-2 C:\Users\lucio\.gradle\caches\8.10\transforms\073a4395694142cc4fe4becce72ac602\transformed\navigation-common-ktx-2.5.3\res
+com.example.android.camera2.basic.app-fragment-1.3.6-3 C:\Users\lucio\.gradle\caches\8.10\transforms\082a514aaf2aba416fabb11609acbe94\transformed\fragment-1.3.6\res
+com.example.android.camera2.basic.app-lifecycle-livedata-core-2.6.1-4 C:\Users\lucio\.gradle\caches\8.10\transforms\0acb2828c72a54e68f48abcab7d03b7b\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.android.camera2.basic.app-lifecycle-runtime-2.6.1-5 C:\Users\lucio\.gradle\caches\8.10\transforms\0df77bde45351aecd0592978adf39ada\transformed\lifecycle-runtime-2.6.1\res
+com.example.android.camera2.basic.app-jetified-savedstate-1.2.1-6 C:\Users\lucio\.gradle\caches\8.10\transforms\0dfe803a7fb2c6a3decc5612f1480448\transformed\jetified-savedstate-1.2.1\res
+com.example.android.camera2.basic.app-jetified-viewpager2-1.0.0-7 C:\Users\lucio\.gradle\caches\8.10\transforms\0eadcf1c0193e50172d70d00e9649a2d\transformed\jetified-viewpager2-1.0.0\res
+com.example.android.camera2.basic.app-jetified-lifecycle-process-2.6.1-8 C:\Users\lucio\.gradle\caches\8.10\transforms\1589adc93bcb0a8ffa14ab858cdd3e95\transformed\jetified-lifecycle-process-2.6.1\res
+com.example.android.camera2.basic.app-jetified-android-gif-drawable-1.2.17-9 C:\Users\lucio\.gradle\caches\8.10\transforms\178208a54a0d972f2cff99cf6f8fd95c\transformed\jetified-android-gif-drawable-1.2.17\res
+com.example.android.camera2.basic.app-media-1.0.0-10 C:\Users\lucio\.gradle\caches\8.10\transforms\196c263840df71378374e91c3a894ac0\transformed\media-1.0.0\res
+com.example.android.camera2.basic.app-jetified-customview-poolingcontainer-1.0.0-11 C:\Users\lucio\.gradle\caches\8.10\transforms\1a7c259d48cc351e129a88d563395e75\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.android.camera2.basic.app-jetified-appcompat-resources-1.6.1-12 C:\Users\lucio\.gradle\caches\8.10\transforms\1b6b846df7ea74b89ad1194cb801a540\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.android.camera2.basic.app-navigation-common-2.5.3-13 C:\Users\lucio\.gradle\caches\8.10\transforms\22bb4acdd04a6e28cad774af849ab714\transformed\navigation-common-2.5.3\res
+com.example.android.camera2.basic.app-jetified-lifecycle-livedata-core-ktx-2.6.1-14 C:\Users\lucio\.gradle\caches\8.10\transforms\309fa798a3a229619c314ce55a8652b7\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
+com.example.android.camera2.basic.app-jetified-lifecycle-viewmodel-ktx-2.6.1-15 C:\Users\lucio\.gradle\caches\8.10\transforms\31d037dcdeacb15da0b9efc97d0267c8\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
+com.example.android.camera2.basic.app-recyclerview-1.3.0-16 C:\Users\lucio\.gradle\caches\8.10\transforms\3538c5c685a9c6e145bc6a5b60a7ff6b\transformed\recyclerview-1.3.0\res
+com.example.android.camera2.basic.app-lifecycle-viewmodel-2.6.1-17 C:\Users\lucio\.gradle\caches\8.10\transforms\38d29d608988ad2daa04cf05b61cc8d6\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.android.camera2.basic.app-jetified-activity-ktx-1.6.0-18 C:\Users\lucio\.gradle\caches\8.10\transforms\39354e8f93c9da0aba49b7ad299ef61a\transformed\jetified-activity-ktx-1.6.0\res
+com.example.android.camera2.basic.app-navigation-fragment-2.3.5-19 C:\Users\lucio\.gradle\caches\8.10\transforms\424f13c30a745678e2bc3d9982054834\transformed\navigation-fragment-2.3.5\res
+com.example.android.camera2.basic.app-jetified-core-ktx-1.10.1-20 C:\Users\lucio\.gradle\caches\8.10\transforms\50e1148dc44bf9b7e50723922220cb56\transformed\jetified-core-ktx-1.10.1\res
+com.example.android.camera2.basic.app-jetified-activity-1.6.0-21 C:\Users\lucio\.gradle\caches\8.10\transforms\53593e2ac48c75241006273dca8b08cf\transformed\jetified-activity-1.6.0\res
+com.example.android.camera2.basic.app-navigation-runtime-2.5.3-22 C:\Users\lucio\.gradle\caches\8.10\transforms\5f68b4f4c6b285d31e58961703c5cbb2\transformed\navigation-runtime-2.5.3\res
+com.example.android.camera2.basic.app-jetified-emoji2-1.2.0-23 C:\Users\lucio\.gradle\caches\8.10\transforms\6005c25746c20c07a498c89cc05620c7\transformed\jetified-emoji2-1.2.0\res
+com.example.android.camera2.basic.app-drawerlayout-1.1.1-24 C:\Users\lucio\.gradle\caches\8.10\transforms\686e28ad2247907ba83508a3eb5da15c\transformed\drawerlayout-1.1.1\res
+com.example.android.camera2.basic.app-appcompat-1.6.1-25 C:\Users\lucio\.gradle\caches\8.10\transforms\6e768b6e95a74edee9806ca880ad76fc\transformed\appcompat-1.6.1\res
+com.example.android.camera2.basic.app-jetified-glide-4.12.0-26 C:\Users\lucio\.gradle\caches\8.10\transforms\7442d8902d5e8b51de15f4f0ea9d7413\transformed\jetified-glide-4.12.0\res
+com.example.android.camera2.basic.app-navigation-ui-2.5.3-27 C:\Users\lucio\.gradle\caches\8.10\transforms\7f9b6fee58109fe1e67d02123cad96ee\transformed\navigation-ui-2.5.3\res
+com.example.android.camera2.basic.app-jetified-emoji2-views-helper-1.2.0-28 C:\Users\lucio\.gradle\caches\8.10\transforms\8797219b523f0082094d38d7a49b54b3\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.android.camera2.basic.app-core-runtime-2.2.0-29 C:\Users\lucio\.gradle\caches\8.10\transforms\933947f73111dec018e5a6557d85554e\transformed\core-runtime-2.2.0\res
+com.example.android.camera2.basic.app-jetified-lifecycle-runtime-ktx-2.6.1-30 C:\Users\lucio\.gradle\caches\8.10\transforms\9a2a446dcc5513ee50463c07adf356ae\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
+com.example.android.camera2.basic.app-jetified-profileinstaller-1.3.0-31 C:\Users\lucio\.gradle\caches\8.10\transforms\9c72b3d86773433e0a2b29af5b781f70\transformed\jetified-profileinstaller-1.3.0\res
+com.example.android.camera2.basic.app-jetified-graphview-4.2.2-32 C:\Users\lucio\.gradle\caches\8.10\transforms\a8febed12a46790d83035e4c1f04136a\transformed\jetified-graphview-4.2.2\res
+com.example.android.camera2.basic.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-33 C:\Users\lucio\.gradle\caches\8.10\transforms\b8c1d1842c2e66cbcadd2aaaa2de6ecb\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.android.camera2.basic.app-jetified-savedstate-ktx-1.2.1-34 C:\Users\lucio\.gradle\caches\8.10\transforms\b92ae199c32cfeb049b13702cd1e9cfa\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.android.camera2.basic.app-coordinatorlayout-1.1.0-35 C:\Users\lucio\.gradle\caches\8.10\transforms\c154bcb1d9f49e50fb9b7768645084cf\transformed\coordinatorlayout-1.1.0\res
+com.example.android.camera2.basic.app-constraintlayout-2.1.4-36 C:\Users\lucio\.gradle\caches\8.10\transforms\ceeff0a5323067fefb08a737c43f2fba\transformed\constraintlayout-2.1.4\res
+com.example.android.camera2.basic.app-jetified-startup-runtime-1.1.1-37 C:\Users\lucio\.gradle\caches\8.10\transforms\d4a3fb14c38e9c141409ce6200ed657a\transformed\jetified-startup-runtime-1.1.1\res
+com.example.android.camera2.basic.app-core-1.10.1-38 C:\Users\lucio\.gradle\caches\8.10\transforms\d974832ba833b6f87b064cf371fd1447\transformed\core-1.10.1\res
+com.example.android.camera2.basic.app-navigation-runtime-ktx-2.5.3-39 C:\Users\lucio\.gradle\caches\8.10\transforms\d9982f7d8f53bc82f1161d2e3f6a0970\transformed\navigation-runtime-ktx-2.5.3\res
+com.example.android.camera2.basic.app-cardview-1.0.0-40 C:\Users\lucio\.gradle\caches\8.10\transforms\daf1210ee70047debf501599a1ca7b23\transformed\cardview-1.0.0\res
+com.example.android.camera2.basic.app-lifecycle-livedata-2.6.1-41 C:\Users\lucio\.gradle\caches\8.10\transforms\dc98b7a2ee6a25cda8b865e485ef755f\transformed\lifecycle-livedata-2.6.1\res
+com.example.android.camera2.basic.app-navigation-ui-ktx-2.5.3-42 C:\Users\lucio\.gradle\caches\8.10\transforms\e93ae0702283be62887da36a5ec5f75a\transformed\navigation-ui-ktx-2.5.3\res
+com.example.android.camera2.basic.app-material-1.4.0-beta01-43 C:\Users\lucio\.gradle\caches\8.10\transforms\fcf0b7c3e732b0ed8981b55211bb372e\transformed\material-1.4.0-beta01\res
+com.example.android.camera2.basic.app-pngs-44 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\generated\res\pngs\debug
+com.example.android.camera2.basic.app-resValues-45 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\generated\res\resValues\debug
+com.example.android.camera2.basic.app-rs-46 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\generated\res\rs\debug
+com.example.android.camera2.basic.app-mergeDebugResources-47 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.android.camera2.basic.app-mergeDebugResources-48 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.android.camera2.basic.app-merged_res-49 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\build\intermediates\merged_res\debug
+com.example.android.camera2.basic.app-debug-50 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\src\debug\res
+com.example.android.camera2.basic.app-main-51 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\app\src\main\res
+com.example.android.camera2.basic.app-packaged_res-52 C:\Users\lucio\OneDrive\Documentos\GitHub\Espectrometro-LOFT\Version que corre\utils\build\intermediates\packaged_res\debug

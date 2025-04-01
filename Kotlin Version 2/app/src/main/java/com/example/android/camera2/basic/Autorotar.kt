@@ -2,7 +2,7 @@ package com.example.calibrarlongituddeonda
 
 import android.graphics.Bitmap
 import android.graphics.Color
-import org.apache.commons.math3.complex.Complex
+import com.example.android.camera2.basic.Regresion
 import kotlin.math.pow
 
 class Autorotar (myBitmap: Bitmap){
