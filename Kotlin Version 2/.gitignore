@@ -3,6 +3,9 @@
 *.aar
 *.ap_
 
+#Tab Files
+*.tab
+
 # Files for the Dalvik VM
 *.dex
 
@@ -13,6 +16,7 @@
 bin/
 gen/
 out/
+*.bin
 
 # Gradle files
 .gradle/
@@ -30,6 +34,7 @@ proguard/
 # IntelliJ/Android Studio
 .idea/
 *.iml
+**//cacheable/
 
 # Keystore files
 *.jks
