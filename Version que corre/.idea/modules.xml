@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IP018_reducido.iml" filepath="$PROJECT_DIR$/.idea/modules/IP018_reducido.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Version_que_corre.iml" filepath="$PROJECT_DIR$/.idea/modules/Version_que_corre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_que_corre.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_que_corre.utils.unitTest.iml" />
     </modules>
   </component>
 </project>

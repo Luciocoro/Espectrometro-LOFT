@@ -75,7 +75,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="IP018_reducido.utils.main" />
+    <orderEntry type="module" module-name="Version_que_corre.utils.main" />
     <orderEntry type="module-library" exported="">
       <library name="Gradle: kaptGeneratedClasses">
         <CLASSES>

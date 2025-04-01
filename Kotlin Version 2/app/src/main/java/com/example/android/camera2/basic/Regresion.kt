@@ -1,9 +1,7 @@
-package com.example.calibrarlongituddeonda
+package com.example.android.camera2.basic
 
-import org.apache.commons.math3.analysis.polynomials.PolynomialFunction
 import org.apache.commons.math3.fitting.PolynomialCurveFitter
 import org.apache.commons.math3.fitting.WeightedObservedPoints
-import kotlin.math.pow
 
 class Regresion {
     fun getPolynomialFitter(x: MutableList<Double>, y: MutableList<Double>, n: Int): DoubleArray {
