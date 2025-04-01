@@ -17,6 +17,7 @@ bin/
 gen/
 out/
 *.bin
+*.at
 
 # Gradle files
 .gradle/

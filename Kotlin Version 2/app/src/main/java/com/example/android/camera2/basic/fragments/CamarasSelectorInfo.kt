@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.example.android.camera2.basic.R
 
-class camarasSelectorInfo: DialogFragment() {
+class CamarasSelectorInfo: DialogFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
