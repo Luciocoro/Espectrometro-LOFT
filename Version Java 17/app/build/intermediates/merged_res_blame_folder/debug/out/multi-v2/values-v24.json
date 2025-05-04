@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.camera2.basic.app-mergeDebugResources-47:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\f217b0a43407bd18f5bfd57e50a6de6e\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/luciocoronato/.gradle/caches/transforms-3/f217b0a43407bd18f5bfd57e50a6de6e/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\a0fe36620b505445a9df529a9712865a\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/luciocoronato/.gradle/caches/transforms-3/a0fe36620b505445a9df529a9712865a/transformed/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

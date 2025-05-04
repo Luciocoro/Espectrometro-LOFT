@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.camera2.basic.app-mergeDebugResources-47:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\f217b0a43407bd18f5bfd57e50a6de6e\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "/Users/luciocoronato/.gradle/caches/transforms-3/f217b0a43407bd18f5bfd57e50a6de6e/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.camera2.basic.app-mergeDebugResources-47:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lucio\\.gradle\\caches\\transforms-3\\7a4da1315679ee71500c774dfb55e568\\transformed\\material-1.4.0-beta01\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "/Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

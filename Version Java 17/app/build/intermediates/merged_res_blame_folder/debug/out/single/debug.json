@@ -1,194 +1,190 @@
 [
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_menu_inicial.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\menu_inicial.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_camara_pruebas.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/camara_pruebas.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxhdpi_ic_icono1_round.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxhdpi\\ic_icono1_round.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxhdpi_ic_icono1_background.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxhdpi/ic_icono1_background.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-mdpi\\ic_launcher.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_colorwavegif5.gif.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/colorwavegif5.gif"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_photo_video_switch_camera_icon.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\photo_video_switch_camera_icon.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_gifcolores.gif.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/gifcolores.gif"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_captura.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\captura.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxhdpi_ic_icono1_background.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxhdpi\\ic_icono1_background.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xhdpi_ic_icono1_round.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xhdpi/ic_icono1_round.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_ic_icono1_foreground.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\ic_icono1_foreground.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_fragment_medir_absorbancia_test.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/fragment_medir_absorbancia_test.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-mdpi_ic_icono1_round.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-mdpi\\ic_icono1_round.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-hdpi_ic_icono1.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-hdpi/ic_icono1.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_gifcolores.gif.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\gifcolores.gif"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/navigation_nav_graph.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-anydpi-v26_ic_icono1_round.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-anydpi-v26\\ic_icono1_round.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_cross.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/cross.png"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-hdpi_ic_icono1_round.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-hdpi/ic_icono1_round.png"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_fragment_perfiles_r_g_b.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/fragment_perfiles_r_g_b.xml"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xhdpi_ic_icono1.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xhdpi/ic_icono1.png"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-hdpi_ic_icono1_background.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-hdpi/ic_icono1_background.png"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xhdpi_ic_icono1_background.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xhdpi/ic_icono1_background.png"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-anydpi-v26_ic_icono1_round.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-anydpi-v26/ic_icono1_round.xml"
+    },
+    {
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_activity_camera.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/activity_camera.xml"
     },
     {
         "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_menu_inicial.xml.flat",
         "source": "com.example.android.camera2.basic.app-main-51:/layout/menu_inicial.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_circle.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\circle.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_ic_photo.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/ic_photo.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxxhdpi_ic_icono1.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxxhdpi/ic_icono1.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xhdpi_ic_icono1_background.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xhdpi\\ic_icono1_background.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-anydpi-v26_ic_icono1.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-anydpi-v26/ic_icono1.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-mdpi_ic_icono1.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-mdpi\\ic_icono1.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxxhdpi_ic_icono1_background.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxxhdpi/ic_icono1_background.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_info_window.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\info_window.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-mdpi_ic_icono1_background.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-mdpi/ic_icono1_background.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxxhdpi_ic_icono1_round.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxxhdpi\\ic_icono1_round.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxhdpi_ic_icono1.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxhdpi/ic_icono1.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_ic_photo.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\ic_photo.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_captura.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/captura.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxxhdpi_ic_icono1_background.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxxhdpi\\ic_icono1_background.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-xhdpi_l.jpg.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-xhdpi/l.jpg"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_activity_camera.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\activity_camera.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_ic_icono1_foreground.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/ic_icono1_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_green_arrow_right_svg.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\green_arrow_right_svg.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_camara_pruebas.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\camara_pruebas.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxhdpi_ic_icono1_round.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxhdpi/ic_icono1_round.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_selectorlayout.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\selectorlayout.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-xhdpi_logo_loft.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-xhdpi/logo_loft.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-xhdpi_logo_loft.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-xhdpi\\logo_loft.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_photo_video_switch_camera_icon.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/photo_video_switch_camera_icon.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_guardar.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\guardar.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xhdpi_ic_icono1_round.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xhdpi\\ic_icono1_round.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_circle.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/circle.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_fragment_camera.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\fragment_camera.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_cameras_info_window.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/cameras_info_window.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-hdpi\\ic_launcher.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_selectorlayout.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/selectorlayout.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-anydpi-v26_ic_icono1.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-anydpi-v26\\ic_icono1.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-mdpi_ic_icono1_round.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-mdpi/ic_icono1_round.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-hdpi_ic_icono1_round.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-hdpi\\ic_icono1_round.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-mdpi_ic_icono1.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-mdpi/ic_icono1.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_cameras_info_window.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\cameras_info_window.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_tick.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/tick.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_info_window.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/info_window.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout-land_fragment_camera.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout-land\\fragment_camera.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout-land_fragment_camera.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout-land/fragment_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_fragment_medir_absorbancia_test.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\fragment_medir_absorbancia_test.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_green_arrow_right_svg.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/green_arrow_right_svg.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable-xhdpi_l.jpg.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable-xhdpi\\l.jpg"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_guardar.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/guardar.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxxhdpi_ic_icono1.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxxhdpi\\ic_icono1.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/mipmap-xxxhdpi_ic_icono1_round.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/mipmap-xxxhdpi/ic_icono1_round.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_tick.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\tick.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/layout_fragment_camera.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/layout/fragment_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xhdpi_ic_icono1.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xhdpi\\ic_icono1.png"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\navigation\\nav_graph.xml"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/drawable_colorwavegif2.gif.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/drawable/colorwavegif2.gif"
     },
     {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-xxhdpi_ic_icono1.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-xxhdpi\\ic_icono1.png"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_colorwavegif5.gif.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\colorwavegif5.gif"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\layout_fragment_perfiles_r_g_b.xml.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\layout\\fragment_perfiles_r_g_b.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-mdpi_ic_icono1_background.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-mdpi\\ic_icono1_background.png"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-hdpi_ic_icono1.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-hdpi\\ic_icono1.png"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_cross.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\cross.png"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\mipmap-hdpi_ic_icono1_background.png.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\mipmap-hdpi\\ic_icono1_background.png"
-    },
-    {
-        "merged": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-merged_res-49:\\drawable_colorwavegif2.gif.flat",
-        "source": "C:\\Users\\Lucio\\.gradle\\daemon\\7.4\\com.example.android.camera2.basic.app-main-51:\\drawable\\colorwavegif2.gif"
+        "merged": "com.example.android.camera2.basic.app-merged_res-49:/xml_provider_paths.xml.flat",
+        "source": "com.example.android.camera2.basic.app-main-51:/xml/provider_paths.xml"
     }
 ]

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IP018_reducido.iml" filepath="$PROJECT_DIR$/.idea/modules/IP018_reducido.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IP018_reducido.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/IP018_reducido.utils.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Version_Java_17.iml" filepath="$PROJECT_DIR$/.idea/modules/Version_Java_17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Version_Java_17.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/Version_Java_17.utils.unitTest.iml" />
     </modules>
   </component>
 </project>
