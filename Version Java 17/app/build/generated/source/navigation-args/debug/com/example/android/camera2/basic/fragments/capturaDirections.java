@@ -18,9 +18,11 @@ public class capturaDirections {
   @NonNull
   public static ActionCapturaToPerfiles actionCapturaToPerfiles(@NonNull String cameraId,
       @NonNull float[] blueOrder1, @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
-      @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
-      @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
-    return new ActionCapturaToPerfiles(cameraId, blueOrder1, redOrder1, greenOrder1, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1);
+      @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
+      @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra, @NonNull float[] blueOrder2,
+      @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
+      int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+    return new ActionCapturaToPerfiles(cameraId, blueOrder1, redOrder1, greenOrder1, grisesSinMuestra, grisesConMuestra, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1);
   }
 
   public static class ActionCapturaToPerfiles implements NavDirections {
@@ -28,9 +30,11 @@ public class capturaDirections {
 
     @SuppressWarnings("unchecked")
     private ActionCapturaToPerfiles(@NonNull String cameraId, @NonNull float[] blueOrder1,
-        @NonNull float[] redOrder1, @NonNull float[] greenOrder1, @NonNull float[] blueOrder2,
-        @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-        int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+        @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra,
+        @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
       if (cameraId == null) {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
@@ -47,6 +51,14 @@ public class capturaDirections {
         throw new IllegalArgumentException("Argument \"greenOrder1\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("greenOrder1", greenOrder1);
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
       if (blueOrder2 == null) {
         throw new IllegalArgumentException("Argument \"blueOrder2\" is marked as non-null but was passed a null value.");
       }
@@ -104,6 +116,28 @@ public class capturaDirections {
         throw new IllegalArgumentException("Argument \"greenOrder1\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("greenOrder1", greenOrder1);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionCapturaToPerfiles setGrisesSinMuestra(
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra) {
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionCapturaToPerfiles setGrisesConMuestra(
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra) {
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
       return this;
     }
 
@@ -182,6 +216,14 @@ public class capturaDirections {
         float[] greenOrder1 = (float[]) arguments.get("greenOrder1");
         __result.putFloatArray("greenOrder1", greenOrder1);
       }
+      if (arguments.containsKey("grisesSinMuestra")) {
+        mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+        __result.putParcelableArray("grisesSinMuestra", grisesSinMuestra);
+      }
+      if (arguments.containsKey("grisesConMuestra")) {
+        mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+        __result.putParcelableArray("grisesConMuestra", grisesConMuestra);
+      }
       if (arguments.containsKey("blueOrder2")) {
         float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
         __result.putFloatArray("blueOrder2", blueOrder2);
@@ -236,6 +278,18 @@ public class capturaDirections {
     @NonNull
     public float[] getGreenOrder1() {
       return (float[]) arguments.get("greenOrder1");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
+      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
+      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
     }
 
     @SuppressWarnings("unchecked")
@@ -305,6 +359,18 @@ public class capturaDirections {
       if (getGreenOrder1() != null ? !getGreenOrder1().equals(that.getGreenOrder1()) : that.getGreenOrder1() != null) {
         return false;
       }
+      if (arguments.containsKey("grisesSinMuestra") != that.arguments.containsKey("grisesSinMuestra")) {
+        return false;
+      }
+      if (getGrisesSinMuestra() != null ? !getGrisesSinMuestra().equals(that.getGrisesSinMuestra()) : that.getGrisesSinMuestra() != null) {
+        return false;
+      }
+      if (arguments.containsKey("grisesConMuestra") != that.arguments.containsKey("grisesConMuestra")) {
+        return false;
+      }
+      if (getGrisesConMuestra() != null ? !getGrisesConMuestra().equals(that.getGrisesConMuestra()) : that.getGrisesConMuestra() != null) {
+        return false;
+      }
       if (arguments.containsKey("blueOrder2") != that.arguments.containsKey("blueOrder2")) {
         return false;
       }
@@ -354,6 +420,8 @@ public class capturaDirections {
       result = 31 * result + java.util.Arrays.hashCode(getBlueOrder1());
       result = 31 * result + java.util.Arrays.hashCode(getRedOrder1());
       result = 31 * result + java.util.Arrays.hashCode(getGreenOrder1());
+      result = 31 * result + java.util.Arrays.hashCode(getGrisesSinMuestra());
+      result = 31 * result + java.util.Arrays.hashCode(getGrisesConMuestra());
       result = 31 * result + java.util.Arrays.hashCode(getBlueOrder2());
       result = 31 * result + java.util.Arrays.hashCode(getRedOrder2());
       result = 31 * result + java.util.Arrays.hashCode(getGreenOrder2());
@@ -371,6 +439,8 @@ public class capturaDirections {
           + ", blueOrder1=" + getBlueOrder1()
           + ", redOrder1=" + getRedOrder1()
           + ", greenOrder1=" + getGreenOrder1()
+          + ", grisesSinMuestra=" + getGrisesSinMuestra()
+          + ", grisesConMuestra=" + getGrisesConMuestra()
           + ", blueOrder2=" + getBlueOrder2()
           + ", redOrder2=" + getRedOrder2()
           + ", greenOrder2=" + getGreenOrder2()

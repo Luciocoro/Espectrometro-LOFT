@@ -1,6 +1,7 @@
 package com.example.android.camera2.basic.fragments;
 
 import android.os.Bundle;
+import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.navigation.NavArgs;
@@ -9,6 +10,7 @@ import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
+import java.lang.System;
 import java.util.HashMap;
 
 public class PerfilesRGBArgs implements NavArgs {
@@ -23,7 +25,10 @@ public class PerfilesRGBArgs implements NavArgs {
   }
 
   @NonNull
-  @SuppressWarnings("unchecked")
+  @SuppressWarnings({
+      "unchecked",
+      "deprecation"
+  })
   public static PerfilesRGBArgs fromBundle(@NonNull Bundle bundle) {
     PerfilesRGBArgs __result = new PerfilesRGBArgs();
     bundle.setClassLoader(PerfilesRGBArgs.class.getClassLoader());
@@ -66,6 +71,38 @@ public class PerfilesRGBArgs implements NavArgs {
       __result.arguments.put("greenOrder1", greenOrder1);
     } else {
       throw new IllegalArgumentException("Required argument \"greenOrder1\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("grisesSinMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra;
+      Parcelable[] __array = bundle.getParcelableArray("grisesSinMuestra");
+      if (__array != null) {
+        grisesSinMuestra = new mutableListOf<mutableListOf<Float>>[__array.length];
+        System.arraycopy(__array, 0, grisesSinMuestra, 0, __array.length);
+      } else {
+        grisesSinMuestra = null;
+      }
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("grisesSinMuestra", grisesSinMuestra);
+    } else {
+      throw new IllegalArgumentException("Required argument \"grisesSinMuestra\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("grisesConMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesConMuestra;
+      Parcelable[] __array = bundle.getParcelableArray("grisesConMuestra");
+      if (__array != null) {
+        grisesConMuestra = new mutableListOf<mutableListOf<Float>>[__array.length];
+        System.arraycopy(__array, 0, grisesConMuestra, 0, __array.length);
+      } else {
+        grisesConMuestra = null;
+      }
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("grisesConMuestra", grisesConMuestra);
+    } else {
+      throw new IllegalArgumentException("Required argument \"grisesConMuestra\" is missing and does not have an android:defaultValue");
     }
     if (bundle.containsKey("blueOrder2")) {
       float[] blueOrder2;
@@ -168,6 +205,26 @@ public class PerfilesRGBArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"greenOrder1\" is missing and does not have an android:defaultValue");
     }
+    if (savedStateHandle.contains("grisesSinMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra;
+      grisesSinMuestra = savedStateHandle.get("grisesSinMuestra");
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("grisesSinMuestra", grisesSinMuestra);
+    } else {
+      throw new IllegalArgumentException("Required argument \"grisesSinMuestra\" is missing and does not have an android:defaultValue");
+    }
+    if (savedStateHandle.contains("grisesConMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesConMuestra;
+      grisesConMuestra = savedStateHandle.get("grisesConMuestra");
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("grisesConMuestra", grisesConMuestra);
+    } else {
+      throw new IllegalArgumentException("Required argument \"grisesConMuestra\" is missing and does not have an android:defaultValue");
+    }
     if (savedStateHandle.contains("blueOrder2")) {
       float[] blueOrder2;
       blueOrder2 = savedStateHandle.get("blueOrder2");
@@ -251,6 +308,18 @@ public class PerfilesRGBArgs implements NavArgs {
 
   @SuppressWarnings("unchecked")
   @NonNull
+  public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
+    return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+  }
+
+  @SuppressWarnings("unchecked")
+  @NonNull
+  public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
+    return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+  }
+
+  @SuppressWarnings("unchecked")
+  @NonNull
   public float[] getBlueOrder2() {
     return (float[]) arguments.get("blueOrder2");
   }
@@ -303,6 +372,14 @@ public class PerfilesRGBArgs implements NavArgs {
       float[] greenOrder1 = (float[]) arguments.get("greenOrder1");
       __result.putFloatArray("greenOrder1", greenOrder1);
     }
+    if (arguments.containsKey("grisesSinMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+      __result.putParcelableArray("grisesSinMuestra", grisesSinMuestra);
+    }
+    if (arguments.containsKey("grisesConMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+      __result.putParcelableArray("grisesConMuestra", grisesConMuestra);
+    }
     if (arguments.containsKey("blueOrder2")) {
       float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
       __result.putFloatArray("blueOrder2", blueOrder2);
@@ -349,6 +426,14 @@ public class PerfilesRGBArgs implements NavArgs {
     if (arguments.containsKey("greenOrder1")) {
       float[] greenOrder1 = (float[]) arguments.get("greenOrder1");
       __result.set("greenOrder1", greenOrder1);
+    }
+    if (arguments.containsKey("grisesSinMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+      __result.set("grisesSinMuestra", grisesSinMuestra);
+    }
+    if (arguments.containsKey("grisesConMuestra")) {
+      mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+      __result.set("grisesConMuestra", grisesConMuestra);
     }
     if (arguments.containsKey("blueOrder2")) {
       float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
@@ -410,6 +495,18 @@ public class PerfilesRGBArgs implements NavArgs {
     if (getGreenOrder1() != null ? !getGreenOrder1().equals(that.getGreenOrder1()) : that.getGreenOrder1() != null) {
       return false;
     }
+    if (arguments.containsKey("grisesSinMuestra") != that.arguments.containsKey("grisesSinMuestra")) {
+      return false;
+    }
+    if (getGrisesSinMuestra() != null ? !getGrisesSinMuestra().equals(that.getGrisesSinMuestra()) : that.getGrisesSinMuestra() != null) {
+      return false;
+    }
+    if (arguments.containsKey("grisesConMuestra") != that.arguments.containsKey("grisesConMuestra")) {
+      return false;
+    }
+    if (getGrisesConMuestra() != null ? !getGrisesConMuestra().equals(that.getGrisesConMuestra()) : that.getGrisesConMuestra() != null) {
+      return false;
+    }
     if (arguments.containsKey("blueOrder2") != that.arguments.containsKey("blueOrder2")) {
       return false;
     }
@@ -456,6 +553,8 @@ public class PerfilesRGBArgs implements NavArgs {
     result = 31 * result + java.util.Arrays.hashCode(getBlueOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getRedOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getGreenOrder1());
+    result = 31 * result + java.util.Arrays.hashCode(getGrisesSinMuestra());
+    result = 31 * result + java.util.Arrays.hashCode(getGrisesConMuestra());
     result = 31 * result + java.util.Arrays.hashCode(getBlueOrder2());
     result = 31 * result + java.util.Arrays.hashCode(getRedOrder2());
     result = 31 * result + java.util.Arrays.hashCode(getGreenOrder2());
@@ -472,6 +571,8 @@ public class PerfilesRGBArgs implements NavArgs {
         + ", blueOrder1=" + getBlueOrder1()
         + ", redOrder1=" + getRedOrder1()
         + ", greenOrder1=" + getGreenOrder1()
+        + ", grisesSinMuestra=" + getGrisesSinMuestra()
+        + ", grisesConMuestra=" + getGrisesConMuestra()
         + ", blueOrder2=" + getBlueOrder2()
         + ", redOrder2=" + getRedOrder2()
         + ", greenOrder2=" + getGreenOrder2()
@@ -491,9 +592,11 @@ public class PerfilesRGBArgs implements NavArgs {
 
     @SuppressWarnings("unchecked")
     public Builder(@NonNull String cameraId, @NonNull float[] blueOrder1,
-        @NonNull float[] redOrder1, @NonNull float[] greenOrder1, @NonNull float[] blueOrder2,
-        @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-        int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+        @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra,
+        @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
       if (cameraId == null) {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
@@ -510,6 +613,14 @@ public class PerfilesRGBArgs implements NavArgs {
         throw new IllegalArgumentException("Argument \"greenOrder1\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("greenOrder1", greenOrder1);
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
       if (blueOrder2 == null) {
         throw new IllegalArgumentException("Argument \"blueOrder2\" is marked as non-null but was passed a null value.");
       }
@@ -573,6 +684,28 @@ public class PerfilesRGBArgs implements NavArgs {
         throw new IllegalArgumentException("Argument \"greenOrder1\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("greenOrder1", greenOrder1);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setGrisesSinMuestra(
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra) {
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setGrisesConMuestra(
+        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra) {
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
       return this;
     }
 
@@ -652,6 +785,18 @@ public class PerfilesRGBArgs implements NavArgs {
     @NonNull
     public float[] getGreenOrder1() {
       return (float[]) arguments.get("greenOrder1");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    @NonNull
+    public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
+      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    @NonNull
+    public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
+      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
     }
 
     @SuppressWarnings({"unchecked","GetterOnBuilder"})

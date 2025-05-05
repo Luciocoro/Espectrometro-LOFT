@@ -113,6 +113,7 @@ class PerfilesRGB : Fragment() {
         /** Inicia los botones de guardado y continuar */
         val botonGuardar : ImageButton = view.findViewById(R.id.exportarDatos)
         val botonContinuar : ImageButton = view.findViewById(R.id.botonContinuar)
+        val botonGuardarGrises : ImageButton = view.findViewById(R.id.exportarGrises)
 
         val switchRojo: Switch = view.findViewById(R.id.switchRojo)
         val switchVerde: Switch = view.findViewById(R.id.switchVerde)
@@ -136,6 +137,9 @@ class PerfilesRGB : Fragment() {
         botonGuardar.setOnClickListener(){
             exportarDatos()
         }
+
+
+
         botonContinuar.setOnClickListener {
             findNavController().navigate(
                 R.id.permissions_fragment,
@@ -160,6 +164,10 @@ class PerfilesRGB : Fragment() {
                 val greenOrder2 = args.greenOrder2
                 val posicionEnXOrden0 = args.posicionEnXOrden0
                 val blueX1 = args.posicionEnXMaxBlue1
+
+
+                val grisesSinMuestra = args.grisesSinMuestra
+//                val grisesConMuestra = args.grisesConMuestra
 
                 println("POS MAX BLUE 1 = "+blueX1)
 
@@ -322,11 +330,16 @@ class PerfilesRGB : Fragment() {
                 }
             }
         }
+
+        botonGuardarGrises.setOnClickListener(){
+            exportarGrises(args.grisesSinMuestra)
+        }
     }
 
     fun exportarDatos() = lifecycleScope.launch(Dispatchers.IO) {
         var datos = StringBuilder()
         datos.append(StringBuilder("Nro. de pixel,R_blanco,G_blanco,B_blanco,R_muestra,G_muestra,B_muestra"))
+        datos.append("\n")
         for (i in args.listaIndices.indices) {
             var fila = StringBuilder()
             fila.append(args.listaIndices[i].toString()+
@@ -363,6 +376,75 @@ class PerfilesRGB : Fragment() {
         }
 
 
+    }
+
+    fun exportarGrises(matrix: MutableList<MutableList<Float>>) = lifecycleScope.launch(Dispatchers.IO) {
+        try {
+            // Create StringBuilder for CSV content
+            val datos = StringBuilder()
+
+            // Determine the number of rows in the CSV (max length of any matrix row)
+            val maxRowLength = matrix.maxOfOrNull { it.size } ?: 0
+            if (maxRowLength == 0) {
+                withContext(Dispatchers.Main) {
+                    Toast.makeText(requireContext(), "Matrix is empty", Toast.LENGTH_LONG).show()
+                }
+                return@launch
+            }
+
+            // Build CSV: each matrix row becomes a column
+            for (i in 0 until maxRowLength) {
+                val row = StringBuilder()
+                // Iterate over each matrix row (CSV column)
+                matrix.forEachIndexed { index, matrixRow ->
+                    // Get the element at position i, or 0.0f if index i doesn't exist
+                    val value = if (i < matrixRow.size) matrixRow[i].toString() else "0.0"
+                    row.append(value)
+                    // Add comma unless it's the last column
+                    if (index < matrix.size - 1) row.append(",")
+                }
+                datos.append(row.append("\n"))
+            }
+
+            // Convert to ByteArray for file writing
+            val datazo = datos.toString().toByteArray()
+
+            // Generate timestamped filename
+            val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
+            val nombre = "matrixData_$timestamp.csv"
+
+            // Save file to internal storage
+            val out: OutputStream? = context?.openFileOutput(nombre, Context.MODE_PRIVATE)
+            out?.write(datazo)
+            out?.close()
+
+            // Prepare file for sharing
+            val context: Context = requireContext().applicationContext
+            val fileLocation: File = File(context.filesDir, nombre)
+            val path: Uri = FileProvider.getUriForFile(
+                context,
+                "com.example.android.camera2.basic.fileprovider",
+                fileLocation
+            )
+
+            // Create sharing intent
+            val fileIntent = Intent(Intent.ACTION_SEND).apply {
+                type = "text/csv"
+                putExtra(Intent.EXTRA_SUBJECT, "matrixData.csv")
+                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                putExtra(Intent.EXTRA_STREAM, path)
+            }
+
+            // Launch chooser on main thread
+            withContext(Dispatchers.Main) {
+                startActivity(Intent.createChooser(fileIntent, "Send CSV"))
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            withContext(Dispatchers.Main) {
+                Toast.makeText(requireContext(), "Error exporting data: ${e.message}", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
     private fun makeGraph(graph : GraphView, series : LineGraphSeries<DataPoint>,action : String) = lifecycleScope.launch(Dispatchers.IO){

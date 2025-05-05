@@ -259,6 +259,27 @@
             />
 
         <argument
+            android:name="grisesSinMuestra"
+            app:argType="any"
+            app:nullable="false"
+            />
+
+<!--        <argument-->
+<!--            android:name="grisesSinMuestra"-->
+<!--            app:argType="kotlin.collections.MutableList"-->
+<!--            app:nullable="false" />-->
+
+<!--        <argument-->
+<!--            android:name="grisesConMuestra"-->
+<!--            app:argType="mutableListOf<mutableListOf<Float>>[]"-->
+<!--            app:nullable="false"-->
+<!--            />-->
+<!--        <argument-->
+<!--            android:name="grisesConMuestra"-->
+<!--            app:argType="kotlin.collections.MutableList"-->
+<!--            app:nullable="false" />-->
+
+        <argument
             android:name="blueOrder2"
             app:argType="float[]"
             app:nullable="false"

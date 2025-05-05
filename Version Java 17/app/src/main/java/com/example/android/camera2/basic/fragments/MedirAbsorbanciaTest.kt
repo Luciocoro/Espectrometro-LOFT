@@ -151,6 +151,10 @@ class MedirAbsorbanciaTest : Fragment() {
     private var mostrarProgreso : Boolean = false
     private val testMode = false
 
+    private var fotoNro = 0 //Indice para guardar fotos
+    private var grisesSinMuestra = mutableListOf<MutableList<Float>>()
+    private var grisesConMuestra = mutableListOf<MutableList<Float>>()
+    private var grisLoopActual = mutableListOf<Float>()
 
     private var blueOrder1 = mutableListOf<Float>()
     private lateinit var blueOrder1IndexList : IntArray
@@ -473,6 +477,10 @@ class MedirAbsorbanciaTest : Fragment() {
         }
 
         var L = listaIndices.size
+        grisesSinMuestra = zerosMatrix(L, numberOfPictures)
+        grisesConMuestra = zerosMatrix(L, numberOfPictures)
+        grisLoopActual = zeros(L)
+
         redOrder1 = zeros(L)
         greenOrder1 = zeros(L)
         blueOrder1 = zeros(L)
@@ -520,13 +528,17 @@ class MedirAbsorbanciaTest : Fragment() {
                     redOrder1[n]+= r/255f/numberOfPictures.toFloat()
                     greenOrder1[n]+= g/255f/numberOfPictures.toFloat()
                     blueOrder1[n]+= b/255f/numberOfPictures.toFloat()
+
+                    grisLoopActual[n] = (r + g + b)/255f/3f
                 }
+
+                grisesSinMuestra[fotoNro] = grisLoopActual
+                fotoNro += 1
 
                 progress+=1f/numberOfPictures*100f // Modificación 06/05/24
                 withContext(Dispatchers.Main){
                     textoProgreso.text="Progreso "+String.format("%.1f", progress)+"%"
                 }
-
             }
         }
         makePreviewSession(exposureTime,sensitivity,focalDistance) // Modificación 06/05/24
@@ -535,7 +547,7 @@ class MedirAbsorbanciaTest : Fragment() {
             textoProgreso.text="Poner muestra"
         }
 
-        delay(7000L)
+        delay(2000L) //Originalmente eran 7s 5/5/25
 
         /**--------------------------------------------------------------------------**/
         /** Tomando fotos con muestra **/
@@ -549,6 +561,7 @@ class MedirAbsorbanciaTest : Fragment() {
 
         delay(500L)
         progress = 0f
+        fotoNro = 0
         repeat(numberOfPictures) {
             picturesSession = createCaptureSession(camera, listOf(imageReader.surface), cameraHandler)
             takePhoto(exposureTime, sensitivity, focalDistanceCm, picturesSession).use { result -> // Modificación 06/05/24
@@ -575,7 +588,12 @@ class MedirAbsorbanciaTest : Fragment() {
                     redOrder2[n]+= r/255f/numberOfPictures.toFloat()
                     greenOrder2[n]+= g/255f/numberOfPictures.toFloat()
                     blueOrder2[n]+= b/255f/numberOfPictures.toFloat()
+
+                    grisLoopActual[n] = (r + g + b)/255f/3f
                 }
+
+                grisesConMuestra[fotoNro] = grisLoopActual
+                fotoNro += 1
 
                 progress+=1f/numberOfPictures*100f //ACA CAMBIE 06/05
                 withContext(Dispatchers.Main){
@@ -1024,4 +1042,9 @@ fun zeros(n: Int) : MutableList<Float> {
         xs.add(0f)
     }
     return xs
+}
+
+fun zerosMatrix(nRows: Int, nCols: Int): MutableList<MutableList<Float>> {
+    require(nRows >= 0 && nCols >= 0) { "Dimensions must be non-negative" }
+    return MutableList(nCols) { MutableList(nRows) { 0f } }
 }
