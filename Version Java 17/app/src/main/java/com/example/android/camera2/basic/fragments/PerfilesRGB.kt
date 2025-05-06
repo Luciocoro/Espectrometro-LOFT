@@ -130,6 +130,9 @@ class PerfilesRGB : Fragment() {
         var blueSeriesDone = true
         var graySeriesDone = false
 
+
+        val grisesSinMuestra = args.grisesSinMuestra.matrix
+
         super.onViewCreated(view, savedInstanceState)
 
         /** Asigna acciones a los botones */
@@ -166,7 +169,8 @@ class PerfilesRGB : Fragment() {
                 val blueX1 = args.posicionEnXMaxBlue1
 
 
-                val grisesSinMuestra = args.grisesSinMuestra
+                val grisesConMuestra = args.grisesConMuestra.matrix
+
 //                val grisesConMuestra = args.grisesConMuestra
 
                 println("POS MAX BLUE 1 = "+blueX1)
@@ -332,7 +336,7 @@ class PerfilesRGB : Fragment() {
         }
 
         botonGuardarGrises.setOnClickListener(){
-            exportarGrises(args.grisesSinMuestra)
+            exportarGrises(grisesSinMuestra)
         }
     }
 

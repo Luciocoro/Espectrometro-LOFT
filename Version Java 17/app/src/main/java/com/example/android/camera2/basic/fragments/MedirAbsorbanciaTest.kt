@@ -1,6 +1,7 @@
 package com.example.android.camera2.basic.fragments
 
-
+import android.os.Parcel
+import android.os.Parcelable
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
@@ -25,6 +26,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
+import androidx.navigation.Navigation.findNavController
 import com.example.android.camera.utils.AutoFitSurfaceView
 import com.example.android.camera.utils.OrientationLiveData
 import com.example.android.camera.utils.computeExifOrientation
@@ -62,6 +64,7 @@ import java.io.*
 import java.lang.Math.pow
 import java.lang.Runnable
 import java.nio.ByteBuffer
+import androidx.navigation.ui.navigateUp
 
 class MedirAbsorbanciaTest : Fragment() {
 
@@ -229,20 +232,47 @@ class MedirAbsorbanciaTest : Fragment() {
         /** --------- Botones -----------**/
         botonContinuar.setOnClickListener {
             if (activarBotonContinuar) {
-                Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(
-                    MedirAbsorbanciaTestDirections.actionMedirAbsorbanciaTestToCaptura(
-                        prueba,args.cameraId,blueOrder1.toFloatArray(),
-                        redOrder1.toFloatArray(), greenOrder1.toFloatArray(),
-                            blueOrder2.toFloatArray(), redOrder2.toFloatArray(),
-                            greenOrder2.toFloatArray(),listaConMetrica.toFloatArray(),
-                            posicionEnXOrdenCero,blueX1
-                    )
-                )
-            }
-            else {
-                Toast.makeText(activity,"Tome las fotos primero",Toast.LENGTH_SHORT).show()
+                val grisesSinMuestraMatrix = FloatMatrix(grisesSinMuestra)
+                val grisesConMuestraMatrix = FloatMatrix(grisesConMuestra)
+                Navigation.run {
+                    findNavController(requireActivity(), R.id.fragment_container).navigate(
+                                MedirAbsorbanciaTestDirections.actionMedirAbsorbanciaTestToCaptura(
+                                    prueba,
+                                    args.cameraId,
+                                    blueOrder1.toFloatArray(),
+                                    redOrder1.toFloatArray(),
+                                    greenOrder1.toFloatArray(),
+                                    blueOrder2.toFloatArray(),
+                                    redOrder2.toFloatArray(),
+                                    greenOrder2.toFloatArray(),
+                                    listaConMetrica.toFloatArray(),
+                                    posicionEnXOrdenCero,
+                                    blueX1,
+                                    grisesSinMuestraMatrix,
+                                    grisesConMuestraMatrix
+                                )
+                            )
+                }
+            } else {
+                Toast.makeText(activity, "Tome las fotos primero", Toast.LENGTH_SHORT).show()
             }
         }
+//        botonContinuar.setOnClickListener {
+//            if (activarBotonContinuar) {
+//                Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(
+//                    MedirAbsorbanciaTestDirections.actionMedirAbsorbanciaTestToCaptura(
+//                        prueba,args.cameraId,blueOrder1.toFloatArray(),
+//                        redOrder1.toFloatArray(), greenOrder1.toFloatArray(),
+//                            blueOrder2.toFloatArray(), redOrder2.toFloatArray(),
+//                            greenOrder2.toFloatArray(),listaConMetrica.toFloatArray(),
+//                            posicionEnXOrdenCero,blueX1
+//                    )
+//                )
+//            }
+//            else {
+//                Toast.makeText(activity,"Tome las fotos primero",Toast.LENGTH_SHORT).show()
+//            }
+//        }
 
         captureButton.setOnClickListener {
                 script(barraProgreso,textoProgreso,captureButton,exposureTime,numberOfPictures,sensitivity,focalDistance) // Modificación 06/05/24
@@ -860,7 +890,16 @@ class MedirAbsorbanciaTest : Fragment() {
         }
     }
 
-
+    private fun testFloatMatrixParcelable() {
+        val grisesSinMuestraMatrix = FloatMatrix(grisesSinMuestra)
+        val grisesSinMuestraParcel = Parcel.obtain()
+        try {
+            grisesSinMuestraMatrix.writeToParcel(grisesSinMuestraParcel, 0)
+            grisesSinMuestraParcel.setDataPosition(0)
+        } finally {
+            grisesSinMuestraParcel.recycle()
+        }
+    }
 }
 
 fun maxFinder(intensidades: IntArray) : List<Int> {

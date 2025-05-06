@@ -1,9 +1,11 @@
 package com.example.android.camera2.basic.fragments;
 
 import android.os.Bundle;
+import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.navigation.NavDirections;
 import com.example.android.camera2.basic.R;
+import java.io.Serializable;
 import java.lang.IllegalArgumentException;
 import java.lang.Object;
 import java.lang.Override;
@@ -18,10 +20,9 @@ public class capturaDirections {
   @NonNull
   public static ActionCapturaToPerfiles actionCapturaToPerfiles(@NonNull String cameraId,
       @NonNull float[] blueOrder1, @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
-      @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
-      @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra, @NonNull float[] blueOrder2,
-      @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-      int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+      @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
+      @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
+      @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
     return new ActionCapturaToPerfiles(cameraId, blueOrder1, redOrder1, greenOrder1, grisesSinMuestra, grisesConMuestra, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1);
   }
 
@@ -31,8 +32,7 @@ public class capturaDirections {
     @SuppressWarnings("unchecked")
     private ActionCapturaToPerfiles(@NonNull String cameraId, @NonNull float[] blueOrder1,
         @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra,
+        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
         @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
       if (cameraId == null) {
@@ -121,8 +121,7 @@ public class capturaDirections {
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public ActionCapturaToPerfiles setGrisesSinMuestra(
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra) {
+    public ActionCapturaToPerfiles setGrisesSinMuestra(@NonNull FloatMatrix grisesSinMuestra) {
       if (grisesSinMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
       }
@@ -132,8 +131,7 @@ public class capturaDirections {
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public ActionCapturaToPerfiles setGrisesConMuestra(
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra) {
+    public ActionCapturaToPerfiles setGrisesConMuestra(@NonNull FloatMatrix grisesConMuestra) {
       if (grisesConMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
       }
@@ -217,12 +215,24 @@ public class capturaDirections {
         __result.putFloatArray("greenOrder1", greenOrder1);
       }
       if (arguments.containsKey("grisesSinMuestra")) {
-        mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
-        __result.putParcelableArray("grisesSinMuestra", grisesSinMuestra);
+        FloatMatrix grisesSinMuestra = (FloatMatrix) arguments.get("grisesSinMuestra");
+        if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesSinMuestra == null) {
+          __result.putParcelable("grisesSinMuestra", Parcelable.class.cast(grisesSinMuestra));
+        } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+          __result.putSerializable("grisesSinMuestra", Serializable.class.cast(grisesSinMuestra));
+        } else {
+          throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+        }
       }
       if (arguments.containsKey("grisesConMuestra")) {
-        mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
-        __result.putParcelableArray("grisesConMuestra", grisesConMuestra);
+        FloatMatrix grisesConMuestra = (FloatMatrix) arguments.get("grisesConMuestra");
+        if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesConMuestra == null) {
+          __result.putParcelable("grisesConMuestra", Parcelable.class.cast(grisesConMuestra));
+        } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+          __result.putSerializable("grisesConMuestra", Serializable.class.cast(grisesConMuestra));
+        } else {
+          throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+        }
       }
       if (arguments.containsKey("blueOrder2")) {
         float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
@@ -282,14 +292,14 @@ public class capturaDirections {
 
     @SuppressWarnings("unchecked")
     @NonNull
-    public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
-      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+    public FloatMatrix getGrisesSinMuestra() {
+      return (FloatMatrix) arguments.get("grisesSinMuestra");
     }
 
     @SuppressWarnings("unchecked")
     @NonNull
-    public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
-      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+    public FloatMatrix getGrisesConMuestra() {
+      return (FloatMatrix) arguments.get("grisesConMuestra");
     }
 
     @SuppressWarnings("unchecked")
@@ -420,8 +430,8 @@ public class capturaDirections {
       result = 31 * result + java.util.Arrays.hashCode(getBlueOrder1());
       result = 31 * result + java.util.Arrays.hashCode(getRedOrder1());
       result = 31 * result + java.util.Arrays.hashCode(getGreenOrder1());
-      result = 31 * result + java.util.Arrays.hashCode(getGrisesSinMuestra());
-      result = 31 * result + java.util.Arrays.hashCode(getGrisesConMuestra());
+      result = 31 * result + (getGrisesSinMuestra() != null ? getGrisesSinMuestra().hashCode() : 0);
+      result = 31 * result + (getGrisesConMuestra() != null ? getGrisesConMuestra().hashCode() : 0);
       result = 31 * result + java.util.Arrays.hashCode(getBlueOrder2());
       result = 31 * result + java.util.Arrays.hashCode(getRedOrder2());
       result = 31 * result + java.util.Arrays.hashCode(getGreenOrder2());

@@ -66,26 +66,27 @@
         android:id="@+id/exportarDatos"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="52dp"
         android:backgroundTint="#00FFFFFF"
         android:padding="0dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@id/botonContinuar"
         app:layout_constraintEnd_toEndOf="@id/botonContinuar"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/botonContinuar"
-        app:srcCompat="@drawable/guardar"
-         />
+        app:srcCompat="@drawable/guardar" />
 
     <ImageButton
         android:id="@+id/exportarGrises"
         android:layout_width="75dp"
         android:layout_height="75dp"
+        android:layout_marginEnd="60dp"
         android:backgroundTint="#88888888"
         android:padding="0dp"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/guardar"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="607dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/botonContinuar"
+        app:layout_constraintEnd_toStartOf="@+id/botonContinuar"
+        app:srcCompat="@drawable/guardar" />
 
     <ImageButton
         android:id="@+id/botonContinuar"

@@ -23,8 +23,9 @@ public class MedirAbsorbanciaTestDirections {
       @NonNull Bitmap bitmap, @NonNull String cameraId, @NonNull float[] blueOrder1,
       @NonNull float[] redOrder1, @NonNull float[] greenOrder1, @NonNull float[] blueOrder2,
       @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-      int posicionEnXOrden0, int posicionEnXMaxBlue1) {
-    return new ActionMedirAbsorbanciaTestToCaptura(bitmap, cameraId, blueOrder1, redOrder1, greenOrder1, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1);
+      int posicionEnXOrden0, int posicionEnXMaxBlue1, @NonNull FloatMatrix grisesSinMuestra,
+      @NonNull FloatMatrix grisesConMuestra) {
+    return new ActionMedirAbsorbanciaTestToCaptura(bitmap, cameraId, blueOrder1, redOrder1, greenOrder1, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1, grisesSinMuestra, grisesConMuestra);
   }
 
   public static class ActionMedirAbsorbanciaTestToCaptura implements NavDirections {
@@ -34,7 +35,8 @@ public class MedirAbsorbanciaTestDirections {
     private ActionMedirAbsorbanciaTestToCaptura(@NonNull Bitmap bitmap, @NonNull String cameraId,
         @NonNull float[] blueOrder1, @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
-        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1,
+        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra) {
       if (bitmap == null) {
         throw new IllegalArgumentException("Argument \"bitmap\" is marked as non-null but was passed a null value.");
       }
@@ -73,6 +75,14 @@ public class MedirAbsorbanciaTestDirections {
       this.arguments.put("listaIndices", listaIndices);
       this.arguments.put("posicionEnXOrden0", posicionEnXOrden0);
       this.arguments.put("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
     }
 
     @NonNull
@@ -179,6 +189,28 @@ public class MedirAbsorbanciaTestDirections {
       return this;
     }
 
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setGrisesSinMuestra(
+        @NonNull FloatMatrix grisesSinMuestra) {
+      if (grisesSinMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesSinMuestra", grisesSinMuestra);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setGrisesConMuestra(
+        @NonNull FloatMatrix grisesConMuestra) {
+      if (grisesConMuestra == null) {
+        throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("grisesConMuestra", grisesConMuestra);
+      return this;
+    }
+
     @Override
     @SuppressWarnings("unchecked")
     @NonNull
@@ -233,6 +265,26 @@ public class MedirAbsorbanciaTestDirections {
       if (arguments.containsKey("posicionEnXMaxBlue1")) {
         int posicionEnXMaxBlue1 = (int) arguments.get("posicionEnXMaxBlue1");
         __result.putInt("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+      }
+      if (arguments.containsKey("grisesSinMuestra")) {
+        FloatMatrix grisesSinMuestra = (FloatMatrix) arguments.get("grisesSinMuestra");
+        if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesSinMuestra == null) {
+          __result.putParcelable("grisesSinMuestra", Parcelable.class.cast(grisesSinMuestra));
+        } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+          __result.putSerializable("grisesSinMuestra", Serializable.class.cast(grisesSinMuestra));
+        } else {
+          throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+        }
+      }
+      if (arguments.containsKey("grisesConMuestra")) {
+        FloatMatrix grisesConMuestra = (FloatMatrix) arguments.get("grisesConMuestra");
+        if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesConMuestra == null) {
+          __result.putParcelable("grisesConMuestra", Parcelable.class.cast(grisesConMuestra));
+        } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+          __result.putSerializable("grisesConMuestra", Serializable.class.cast(grisesConMuestra));
+        } else {
+          throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+        }
       }
       return __result;
     }
@@ -304,6 +356,18 @@ public class MedirAbsorbanciaTestDirections {
     @SuppressWarnings("unchecked")
     public int getPosicionEnXMaxBlue1() {
       return (int) arguments.get("posicionEnXMaxBlue1");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public FloatMatrix getGrisesSinMuestra() {
+      return (FloatMatrix) arguments.get("grisesSinMuestra");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public FloatMatrix getGrisesConMuestra() {
+      return (FloatMatrix) arguments.get("grisesConMuestra");
     }
 
     @Override
@@ -381,6 +445,18 @@ public class MedirAbsorbanciaTestDirections {
       if (getPosicionEnXMaxBlue1() != that.getPosicionEnXMaxBlue1()) {
         return false;
       }
+      if (arguments.containsKey("grisesSinMuestra") != that.arguments.containsKey("grisesSinMuestra")) {
+        return false;
+      }
+      if (getGrisesSinMuestra() != null ? !getGrisesSinMuestra().equals(that.getGrisesSinMuestra()) : that.getGrisesSinMuestra() != null) {
+        return false;
+      }
+      if (arguments.containsKey("grisesConMuestra") != that.arguments.containsKey("grisesConMuestra")) {
+        return false;
+      }
+      if (getGrisesConMuestra() != null ? !getGrisesConMuestra().equals(that.getGrisesConMuestra()) : that.getGrisesConMuestra() != null) {
+        return false;
+      }
       if (getActionId() != that.getActionId()) {
         return false;
       }
@@ -401,6 +477,8 @@ public class MedirAbsorbanciaTestDirections {
       result = 31 * result + java.util.Arrays.hashCode(getListaIndices());
       result = 31 * result + getPosicionEnXOrden0();
       result = 31 * result + getPosicionEnXMaxBlue1();
+      result = 31 * result + (getGrisesSinMuestra() != null ? getGrisesSinMuestra().hashCode() : 0);
+      result = 31 * result + (getGrisesConMuestra() != null ? getGrisesConMuestra().hashCode() : 0);
       result = 31 * result + getActionId();
       return result;
     }
@@ -419,6 +497,8 @@ public class MedirAbsorbanciaTestDirections {
           + ", listaIndices=" + getListaIndices()
           + ", posicionEnXOrden0=" + getPosicionEnXOrden0()
           + ", posicionEnXMaxBlue1=" + getPosicionEnXMaxBlue1()
+          + ", grisesSinMuestra=" + getGrisesSinMuestra()
+          + ", grisesConMuestra=" + getGrisesConMuestra()
           + "}";
     }
   }

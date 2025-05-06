@@ -222,6 +222,15 @@
             app:argType="integer"
             app:nullable="false"
             />
+        <argument
+            android:name="grisesSinMuestra"
+            app:argType="com.example.android.camera2.basic.fragments.FloatMatrix"
+            app:nullable="false" />
+
+        <argument
+            android:name="grisesConMuestra"
+            app:argType="com.example.android.camera2.basic.fragments.FloatMatrix"
+            app:nullable="false" />
         <action
             android:id="@+id/actionCapturaToPerfiles"
             app:destination="@id/perfiles"
@@ -260,9 +269,13 @@
 
         <argument
             android:name="grisesSinMuestra"
-            app:argType="any"
-            app:nullable="false"
-            />
+            app:argType="com.example.android.camera2.basic.fragments.FloatMatrix"
+            app:nullable="false" />
+
+        <argument
+            android:name="grisesConMuestra"
+            app:argType="com.example.android.camera2.basic.fragments.FloatMatrix"
+            app:nullable="false" />
 
 <!--        <argument-->
 <!--            android:name="grisesSinMuestra"-->

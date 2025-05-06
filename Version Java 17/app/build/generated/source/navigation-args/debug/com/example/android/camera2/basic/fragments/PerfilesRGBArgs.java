@@ -5,12 +5,12 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.navigation.NavArgs;
+import java.io.Serializable;
 import java.lang.IllegalArgumentException;
 import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
-import java.lang.System;
 import java.util.HashMap;
 
 public class PerfilesRGBArgs implements NavArgs {
@@ -73,13 +73,11 @@ public class PerfilesRGBArgs implements NavArgs {
       throw new IllegalArgumentException("Required argument \"greenOrder1\" is missing and does not have an android:defaultValue");
     }
     if (bundle.containsKey("grisesSinMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra;
-      Parcelable[] __array = bundle.getParcelableArray("grisesSinMuestra");
-      if (__array != null) {
-        grisesSinMuestra = new mutableListOf<mutableListOf<Float>>[__array.length];
-        System.arraycopy(__array, 0, grisesSinMuestra, 0, __array.length);
+      FloatMatrix grisesSinMuestra;
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        grisesSinMuestra = (FloatMatrix) bundle.get("grisesSinMuestra");
       } else {
-        grisesSinMuestra = null;
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
       }
       if (grisesSinMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
@@ -89,13 +87,11 @@ public class PerfilesRGBArgs implements NavArgs {
       throw new IllegalArgumentException("Required argument \"grisesSinMuestra\" is missing and does not have an android:defaultValue");
     }
     if (bundle.containsKey("grisesConMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesConMuestra;
-      Parcelable[] __array = bundle.getParcelableArray("grisesConMuestra");
-      if (__array != null) {
-        grisesConMuestra = new mutableListOf<mutableListOf<Float>>[__array.length];
-        System.arraycopy(__array, 0, grisesConMuestra, 0, __array.length);
+      FloatMatrix grisesConMuestra;
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        grisesConMuestra = (FloatMatrix) bundle.get("grisesConMuestra");
       } else {
-        grisesConMuestra = null;
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
       }
       if (grisesConMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
@@ -206,7 +202,7 @@ public class PerfilesRGBArgs implements NavArgs {
       throw new IllegalArgumentException("Required argument \"greenOrder1\" is missing and does not have an android:defaultValue");
     }
     if (savedStateHandle.contains("grisesSinMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra;
+      FloatMatrix grisesSinMuestra;
       grisesSinMuestra = savedStateHandle.get("grisesSinMuestra");
       if (grisesSinMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
@@ -216,7 +212,7 @@ public class PerfilesRGBArgs implements NavArgs {
       throw new IllegalArgumentException("Required argument \"grisesSinMuestra\" is missing and does not have an android:defaultValue");
     }
     if (savedStateHandle.contains("grisesConMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesConMuestra;
+      FloatMatrix grisesConMuestra;
       grisesConMuestra = savedStateHandle.get("grisesConMuestra");
       if (grisesConMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
@@ -308,14 +304,14 @@ public class PerfilesRGBArgs implements NavArgs {
 
   @SuppressWarnings("unchecked")
   @NonNull
-  public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
-    return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+  public FloatMatrix getGrisesSinMuestra() {
+    return (FloatMatrix) arguments.get("grisesSinMuestra");
   }
 
   @SuppressWarnings("unchecked")
   @NonNull
-  public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
-    return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+  public FloatMatrix getGrisesConMuestra() {
+    return (FloatMatrix) arguments.get("grisesConMuestra");
   }
 
   @SuppressWarnings("unchecked")
@@ -373,12 +369,24 @@ public class PerfilesRGBArgs implements NavArgs {
       __result.putFloatArray("greenOrder1", greenOrder1);
     }
     if (arguments.containsKey("grisesSinMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
-      __result.putParcelableArray("grisesSinMuestra", grisesSinMuestra);
+      FloatMatrix grisesSinMuestra = (FloatMatrix) arguments.get("grisesSinMuestra");
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesSinMuestra == null) {
+        __result.putParcelable("grisesSinMuestra", Parcelable.class.cast(grisesSinMuestra));
+      } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        __result.putSerializable("grisesSinMuestra", Serializable.class.cast(grisesSinMuestra));
+      } else {
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+      }
     }
     if (arguments.containsKey("grisesConMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
-      __result.putParcelableArray("grisesConMuestra", grisesConMuestra);
+      FloatMatrix grisesConMuestra = (FloatMatrix) arguments.get("grisesConMuestra");
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesConMuestra == null) {
+        __result.putParcelable("grisesConMuestra", Parcelable.class.cast(grisesConMuestra));
+      } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        __result.putSerializable("grisesConMuestra", Serializable.class.cast(grisesConMuestra));
+      } else {
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+      }
     }
     if (arguments.containsKey("blueOrder2")) {
       float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
@@ -428,12 +436,24 @@ public class PerfilesRGBArgs implements NavArgs {
       __result.set("greenOrder1", greenOrder1);
     }
     if (arguments.containsKey("grisesSinMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesSinMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
-      __result.set("grisesSinMuestra", grisesSinMuestra);
+      FloatMatrix grisesSinMuestra = (FloatMatrix) arguments.get("grisesSinMuestra");
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesSinMuestra == null) {
+        __result.set("grisesSinMuestra", Parcelable.class.cast(grisesSinMuestra));
+      } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        __result.set("grisesSinMuestra", Serializable.class.cast(grisesSinMuestra));
+      } else {
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+      }
     }
     if (arguments.containsKey("grisesConMuestra")) {
-      mutableListOf<mutableListOf<Float>>[] grisesConMuestra = (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
-      __result.set("grisesConMuestra", grisesConMuestra);
+      FloatMatrix grisesConMuestra = (FloatMatrix) arguments.get("grisesConMuestra");
+      if (Parcelable.class.isAssignableFrom(FloatMatrix.class) || grisesConMuestra == null) {
+        __result.set("grisesConMuestra", Parcelable.class.cast(grisesConMuestra));
+      } else if (Serializable.class.isAssignableFrom(FloatMatrix.class)) {
+        __result.set("grisesConMuestra", Serializable.class.cast(grisesConMuestra));
+      } else {
+        throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
+      }
     }
     if (arguments.containsKey("blueOrder2")) {
       float[] blueOrder2 = (float[]) arguments.get("blueOrder2");
@@ -553,8 +573,8 @@ public class PerfilesRGBArgs implements NavArgs {
     result = 31 * result + java.util.Arrays.hashCode(getBlueOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getRedOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getGreenOrder1());
-    result = 31 * result + java.util.Arrays.hashCode(getGrisesSinMuestra());
-    result = 31 * result + java.util.Arrays.hashCode(getGrisesConMuestra());
+    result = 31 * result + (getGrisesSinMuestra() != null ? getGrisesSinMuestra().hashCode() : 0);
+    result = 31 * result + (getGrisesConMuestra() != null ? getGrisesConMuestra().hashCode() : 0);
     result = 31 * result + java.util.Arrays.hashCode(getBlueOrder2());
     result = 31 * result + java.util.Arrays.hashCode(getRedOrder2());
     result = 31 * result + java.util.Arrays.hashCode(getGreenOrder2());
@@ -593,8 +613,7 @@ public class PerfilesRGBArgs implements NavArgs {
     @SuppressWarnings("unchecked")
     public Builder(@NonNull String cameraId, @NonNull float[] blueOrder1,
         @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra,
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra,
+        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
         @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
       if (cameraId == null) {
@@ -689,8 +708,7 @@ public class PerfilesRGBArgs implements NavArgs {
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public Builder setGrisesSinMuestra(
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesSinMuestra) {
+    public Builder setGrisesSinMuestra(@NonNull FloatMatrix grisesSinMuestra) {
       if (grisesSinMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesSinMuestra\" is marked as non-null but was passed a null value.");
       }
@@ -700,8 +718,7 @@ public class PerfilesRGBArgs implements NavArgs {
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public Builder setGrisesConMuestra(
-        @NonNull mutableListOf<mutableListOf<Float>>[] grisesConMuestra) {
+    public Builder setGrisesConMuestra(@NonNull FloatMatrix grisesConMuestra) {
       if (grisesConMuestra == null) {
         throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
       }
@@ -789,14 +806,14 @@ public class PerfilesRGBArgs implements NavArgs {
 
     @SuppressWarnings({"unchecked","GetterOnBuilder"})
     @NonNull
-    public mutableListOf<mutableListOf<Float>>[] getGrisesSinMuestra() {
-      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesSinMuestra");
+    public FloatMatrix getGrisesSinMuestra() {
+      return (FloatMatrix) arguments.get("grisesSinMuestra");
     }
 
     @SuppressWarnings({"unchecked","GetterOnBuilder"})
     @NonNull
-    public mutableListOf<mutableListOf<Float>>[] getGrisesConMuestra() {
-      return (mutableListOf<mutableListOf<Float>>[]) arguments.get("grisesConMuestra");
+    public FloatMatrix getGrisesConMuestra() {
+      return (FloatMatrix) arguments.get("grisesConMuestra");
     }
 
     @SuppressWarnings({"unchecked","GetterOnBuilder"})

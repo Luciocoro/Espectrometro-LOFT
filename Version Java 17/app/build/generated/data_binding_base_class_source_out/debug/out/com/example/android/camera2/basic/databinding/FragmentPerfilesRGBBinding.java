@@ -28,6 +28,9 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
   public final ImageButton exportarDatos;
 
   @NonNull
+  public final ImageButton exportarGrises;
+
+  @NonNull
   public final GraphView graph;
 
   @NonNull
@@ -44,11 +47,12 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
 
   private FragmentPerfilesRGBBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton botonContinuar, @NonNull ImageButton exportarDatos,
-      @NonNull GraphView graph, @NonNull Switch switchAzul, @NonNull Switch switchGris,
-      @NonNull Switch switchRojo, @NonNull Switch switchVerde) {
+      @NonNull ImageButton exportarGrises, @NonNull GraphView graph, @NonNull Switch switchAzul,
+      @NonNull Switch switchGris, @NonNull Switch switchRojo, @NonNull Switch switchVerde) {
     this.rootView = rootView;
     this.botonContinuar = botonContinuar;
     this.exportarDatos = exportarDatos;
+    this.exportarGrises = exportarGrises;
     this.graph = graph;
     this.switchAzul = switchAzul;
     this.switchGris = switchGris;
@@ -95,6 +99,12 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.exportarGrises;
+      ImageButton exportarGrises = ViewBindings.findChildViewById(rootView, id);
+      if (exportarGrises == null) {
+        break missingId;
+      }
+
       id = R.id.graph;
       GraphView graph = ViewBindings.findChildViewById(rootView, id);
       if (graph == null) {
@@ -126,7 +136,7 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
       }
 
       return new FragmentPerfilesRGBBinding((ConstraintLayout) rootView, botonContinuar,
-          exportarDatos, graph, switchAzul, switchGris, switchRojo, switchVerde);
+          exportarDatos, exportarGrises, graph, switchAzul, switchGris, switchRojo, switchVerde);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
