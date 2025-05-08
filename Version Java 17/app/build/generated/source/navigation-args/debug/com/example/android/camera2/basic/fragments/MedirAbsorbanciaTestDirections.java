@@ -24,8 +24,9 @@ public class MedirAbsorbanciaTestDirections {
       @NonNull float[] redOrder1, @NonNull float[] greenOrder1, @NonNull float[] blueOrder2,
       @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
       int posicionEnXOrden0, int posicionEnXMaxBlue1, @NonNull FloatMatrix grisesSinMuestra,
-      @NonNull FloatMatrix grisesConMuestra) {
-    return new ActionMedirAbsorbanciaTestToCaptura(bitmap, cameraId, blueOrder1, redOrder1, greenOrder1, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1, grisesSinMuestra, grisesConMuestra);
+      @NonNull FloatMatrix grisesConMuestra, int numberOfPictures, long exposureTime,
+      int sensitivity, float focalDistance) {
+    return new ActionMedirAbsorbanciaTestToCaptura(bitmap, cameraId, blueOrder1, redOrder1, greenOrder1, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1, grisesSinMuestra, grisesConMuestra, numberOfPictures, exposureTime, sensitivity, focalDistance);
   }
 
   public static class ActionMedirAbsorbanciaTestToCaptura implements NavDirections {
@@ -36,7 +37,8 @@ public class MedirAbsorbanciaTestDirections {
         @NonNull float[] blueOrder1, @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
         @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1,
-        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra) {
+        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
+        int numberOfPictures, long exposureTime, int sensitivity, float focalDistance) {
       if (bitmap == null) {
         throw new IllegalArgumentException("Argument \"bitmap\" is marked as non-null but was passed a null value.");
       }
@@ -83,6 +85,10 @@ public class MedirAbsorbanciaTestDirections {
         throw new IllegalArgumentException("Argument \"grisesConMuestra\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("grisesConMuestra", grisesConMuestra);
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      this.arguments.put("exposureTime", exposureTime);
+      this.arguments.put("sensitivity", sensitivity);
+      this.arguments.put("focalDistance", focalDistance);
     }
 
     @NonNull
@@ -211,6 +217,34 @@ public class MedirAbsorbanciaTestDirections {
       return this;
     }
 
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setNumberOfPictures(int numberOfPictures) {
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setExposureTime(long exposureTime) {
+      this.arguments.put("exposureTime", exposureTime);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setSensitivity(int sensitivity) {
+      this.arguments.put("sensitivity", sensitivity);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionMedirAbsorbanciaTestToCaptura setFocalDistance(float focalDistance) {
+      this.arguments.put("focalDistance", focalDistance);
+      return this;
+    }
+
     @Override
     @SuppressWarnings("unchecked")
     @NonNull
@@ -285,6 +319,22 @@ public class MedirAbsorbanciaTestDirections {
         } else {
           throw new UnsupportedOperationException(FloatMatrix.class.getName() + " must implement Parcelable or Serializable or must be an Enum.");
         }
+      }
+      if (arguments.containsKey("numberOfPictures")) {
+        int numberOfPictures = (int) arguments.get("numberOfPictures");
+        __result.putInt("numberOfPictures", numberOfPictures);
+      }
+      if (arguments.containsKey("exposureTime")) {
+        long exposureTime = (long) arguments.get("exposureTime");
+        __result.putLong("exposureTime", exposureTime);
+      }
+      if (arguments.containsKey("sensitivity")) {
+        int sensitivity = (int) arguments.get("sensitivity");
+        __result.putInt("sensitivity", sensitivity);
+      }
+      if (arguments.containsKey("focalDistance")) {
+        float focalDistance = (float) arguments.get("focalDistance");
+        __result.putFloat("focalDistance", focalDistance);
       }
       return __result;
     }
@@ -368,6 +418,26 @@ public class MedirAbsorbanciaTestDirections {
     @NonNull
     public FloatMatrix getGrisesConMuestra() {
       return (FloatMatrix) arguments.get("grisesConMuestra");
+    }
+
+    @SuppressWarnings("unchecked")
+    public int getNumberOfPictures() {
+      return (int) arguments.get("numberOfPictures");
+    }
+
+    @SuppressWarnings("unchecked")
+    public long getExposureTime() {
+      return (long) arguments.get("exposureTime");
+    }
+
+    @SuppressWarnings("unchecked")
+    public int getSensitivity() {
+      return (int) arguments.get("sensitivity");
+    }
+
+    @SuppressWarnings("unchecked")
+    public float getFocalDistance() {
+      return (float) arguments.get("focalDistance");
     }
 
     @Override
@@ -457,6 +527,30 @@ public class MedirAbsorbanciaTestDirections {
       if (getGrisesConMuestra() != null ? !getGrisesConMuestra().equals(that.getGrisesConMuestra()) : that.getGrisesConMuestra() != null) {
         return false;
       }
+      if (arguments.containsKey("numberOfPictures") != that.arguments.containsKey("numberOfPictures")) {
+        return false;
+      }
+      if (getNumberOfPictures() != that.getNumberOfPictures()) {
+        return false;
+      }
+      if (arguments.containsKey("exposureTime") != that.arguments.containsKey("exposureTime")) {
+        return false;
+      }
+      if (getExposureTime() != that.getExposureTime()) {
+        return false;
+      }
+      if (arguments.containsKey("sensitivity") != that.arguments.containsKey("sensitivity")) {
+        return false;
+      }
+      if (getSensitivity() != that.getSensitivity()) {
+        return false;
+      }
+      if (arguments.containsKey("focalDistance") != that.arguments.containsKey("focalDistance")) {
+        return false;
+      }
+      if (Float.compare(that.getFocalDistance(), getFocalDistance()) != 0) {
+        return false;
+      }
       if (getActionId() != that.getActionId()) {
         return false;
       }
@@ -479,6 +573,10 @@ public class MedirAbsorbanciaTestDirections {
       result = 31 * result + getPosicionEnXMaxBlue1();
       result = 31 * result + (getGrisesSinMuestra() != null ? getGrisesSinMuestra().hashCode() : 0);
       result = 31 * result + (getGrisesConMuestra() != null ? getGrisesConMuestra().hashCode() : 0);
+      result = 31 * result + getNumberOfPictures();
+      result = 31 * result + (int)(getExposureTime() ^ (getExposureTime() >>> 32));
+      result = 31 * result + getSensitivity();
+      result = 31 * result + Float.floatToIntBits(getFocalDistance());
       result = 31 * result + getActionId();
       return result;
     }
@@ -499,6 +597,10 @@ public class MedirAbsorbanciaTestDirections {
           + ", posicionEnXMaxBlue1=" + getPosicionEnXMaxBlue1()
           + ", grisesSinMuestra=" + getGrisesSinMuestra()
           + ", grisesConMuestra=" + getGrisesConMuestra()
+          + ", numberOfPictures=" + getNumberOfPictures()
+          + ", exposureTime=" + getExposureTime()
+          + ", sensitivity=" + getSensitivity()
+          + ", focalDistance=" + getFocalDistance()
           + "}";
     }
   }

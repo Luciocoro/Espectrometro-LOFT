@@ -132,6 +132,8 @@ class PerfilesRGB : Fragment() {
 
 
         val grisesSinMuestra = args.grisesSinMuestra.matrix
+        val grisesConMuestra = args.grisesConMuestra.matrix
+
 
         super.onViewCreated(view, savedInstanceState)
 
@@ -169,9 +171,9 @@ class PerfilesRGB : Fragment() {
                 val blueX1 = args.posicionEnXMaxBlue1
 
 
-                val grisesConMuestra = args.grisesConMuestra.matrix
 
-//                val grisesConMuestra = args.grisesConMuestra
+
+//
 
                 println("POS MAX BLUE 1 = "+blueX1)
 
@@ -336,21 +338,33 @@ class PerfilesRGB : Fragment() {
         }
 
         botonGuardarGrises.setOnClickListener(){
-            exportarGrises(grisesSinMuestra)
+            exportarGrises(grisesSinMuestra,"SinMuestra")
+            exportarGrises(grisesConMuestra,"ConMuestra")
         }
     }
 
-    fun exportarDatos() = lifecycleScope.launch(Dispatchers.IO) {
+    private fun exportarDatos() = lifecycleScope.launch(Dispatchers.IO) {
         var datos = StringBuilder()
-        datos.append(StringBuilder("Nro. de pixel,R_blanco,G_blanco,B_blanco,R_muestra,G_muestra,B_muestra"))
+        datos.append(StringBuilder("Nro. de pixel,R_blanco,G_blanco,B_blanco,R_muestra,G_muestra,B_muestra,Nro Fotos,Exposure Time,Sensitivity,Focal Distance"))
         datos.append("\n")
+
         for (i in args.listaIndices.indices) {
             var fila = StringBuilder()
+            if (i == 0){
+                fila.append(args.listaIndices[i].toString()+
+                        ","+args.redOrder1[i].toString()+","+args.greenOrder1[i].toString()+","+args.blueOrder1[i].toString()+
+                        ","+args.redOrder2[i].toString()+","+args.greenOrder2[i].toString()+","+args.blueOrder2[i].toString()+
+                        ","+args.numberOfPictures.toString()+","+args.exposureTime.toString()+","+args.sensitivity.toString()+
+                    ","+args.focalDistance.toString())
+                datos.append(fila.append("\n"))
+            }
+
             fila.append(args.listaIndices[i].toString()+
                     ","+args.redOrder1[i].toString()+","+args.greenOrder1[i].toString()+","+args.blueOrder1[i].toString()+
                     ","+args.redOrder2[i].toString()+","+args.greenOrder2[i].toString()+","+args.blueOrder2[i].toString())
             datos.append(fila.append("\n"))
         }
+
         var datazo = (datos.toString()).toByteArray()
         val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
         val nombre = "androidAppData_$timestamp.csv"
@@ -382,7 +396,7 @@ class PerfilesRGB : Fragment() {
 
     }
 
-    fun exportarGrises(matrix: MutableList<MutableList<Float>>) = lifecycleScope.launch(Dispatchers.IO) {
+    private fun exportarGrises(matrix: MutableList<MutableList<Float>>, name : String) = lifecycleScope.launch(Dispatchers.IO) {
         try {
             // Create StringBuilder for CSV content
             val datos = StringBuilder()
@@ -415,7 +429,7 @@ class PerfilesRGB : Fragment() {
 
             // Generate timestamped filename
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
-            val nombre = "matrixData_$timestamp.csv"
+            val nombre = "matrixData$name$timestamp.csv"
 
             // Save file to internal storage
             val out: OutputStream? = context?.openFileOutput(nombre, Context.MODE_PRIVATE)
@@ -434,7 +448,7 @@ class PerfilesRGB : Fragment() {
             // Create sharing intent
             val fileIntent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/csv"
-                putExtra(Intent.EXTRA_SUBJECT, "matrixData.csv")
+                putExtra(Intent.EXTRA_SUBJECT, "matrixData$name$timestamp.csv")
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                 putExtra(Intent.EXTRA_STREAM, path)
             }

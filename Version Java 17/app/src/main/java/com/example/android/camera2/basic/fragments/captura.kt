@@ -112,7 +112,7 @@ class captura : Fragment() {
                     args.cameraId, args.blueOrder1, args.redOrder1,
                     args.greenOrder1,args.grisesSinMuestra, args.grisesConMuestra, args.blueOrder2, args.redOrder2,
                         args.greenOrder2,args.listaIndices,args.posicionEnXOrden0,
-                        args.posicionEnXMaxBlue1,
+                        args.posicionEnXMaxBlue1,args.numberOfPictures,args.exposureTime,args.sensitivity,args.focalDistance
                 )
             )
         }

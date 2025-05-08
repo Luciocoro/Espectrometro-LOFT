@@ -249,7 +249,8 @@ class MedirAbsorbanciaTest : Fragment() {
                                     posicionEnXOrdenCero,
                                     blueX1,
                                     grisesSinMuestraMatrix,
-                                    grisesConMuestraMatrix
+                                    grisesConMuestraMatrix,
+                                    args.numberOfPictures,args.exposureTime,args.sensitivity,args.focalDistance,
                                 )
                             )
                 }
@@ -509,7 +510,7 @@ class MedirAbsorbanciaTest : Fragment() {
         var L = listaIndices.size
         grisesSinMuestra = zerosMatrix(L, numberOfPictures)
         grisesConMuestra = zerosMatrix(L, numberOfPictures)
-        grisLoopActual = zeros(L)
+
 
         redOrder1 = zeros(L)
         greenOrder1 = zeros(L)
@@ -541,6 +542,8 @@ class MedirAbsorbanciaTest : Fragment() {
                 result.image.close()
                 picturesSession.close()
 
+                grisLoopActual = zeros(L)
+
                 for (n in listaIndices.indices) {
                     var i0 = listaIndices[n].toInt()
                     var j0 = (listaIndices[n] * m[1] + m[0]).toInt()
@@ -561,7 +564,7 @@ class MedirAbsorbanciaTest : Fragment() {
 
                     grisLoopActual[n] = (r + g + b)/255f/3f
                 }
-
+                //grisesSinMuestra[fotoNro] = zeroToHero(grisLoopActual)
                 grisesSinMuestra[fotoNro] = grisLoopActual
                 fotoNro += 1
 
@@ -890,16 +893,6 @@ class MedirAbsorbanciaTest : Fragment() {
         }
     }
 
-    private fun testFloatMatrixParcelable() {
-        val grisesSinMuestraMatrix = FloatMatrix(grisesSinMuestra)
-        val grisesSinMuestraParcel = Parcel.obtain()
-        try {
-            grisesSinMuestraMatrix.writeToParcel(grisesSinMuestraParcel, 0)
-            grisesSinMuestraParcel.setDataPosition(0)
-        } finally {
-            grisesSinMuestraParcel.recycle()
-        }
-    }
 }
 
 fun maxFinder(intensidades: IntArray) : List<Int> {
@@ -1086,4 +1079,11 @@ fun zeros(n: Int) : MutableList<Float> {
 fun zerosMatrix(nRows: Int, nCols: Int): MutableList<MutableList<Float>> {
     require(nRows >= 0 && nCols >= 0) { "Dimensions must be non-negative" }
     return MutableList(nCols) { MutableList(nRows) { 0f } }
+}
+
+fun zeroToHero(list: MutableList<Float>) : MutableList<Float> {
+    for (n in list.indices){
+        list[n] = n.toFloat()
+    }
+    return list
 }

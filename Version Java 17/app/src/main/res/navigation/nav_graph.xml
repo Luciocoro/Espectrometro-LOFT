@@ -158,6 +158,7 @@
             app:argType="float"
             app:nullable="false"
             />
+
         <action
             android:id="@+id/actionMedirAbsorbanciaTestToCaptura"
             app:destination="@id/captura" />
@@ -231,6 +232,26 @@
             android:name="grisesConMuestra"
             app:argType="com.example.android.camera2.basic.fragments.FloatMatrix"
             app:nullable="false" />
+        <argument
+            android:name="numberOfPictures"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="exposureTime"
+            app:argType="long"
+            app:nullable="false"
+            />
+        <argument
+            android:name="sensitivity"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="focalDistance"
+            app:argType="float"
+            app:nullable="false"
+            />
         <action
             android:id="@+id/actionCapturaToPerfiles"
             app:destination="@id/perfiles"
@@ -330,6 +351,26 @@
         <action
             android:id="@+id/action_perfiles_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <argument
+            android:name="numberOfPictures"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="exposureTime"
+            app:argType="long"
+            app:nullable="false"
+            />
+        <argument
+            android:name="sensitivity"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="focalDistance"
+            app:argType="float"
+            app:nullable="false"
+            />
 
     </fragment>
 
