@@ -114,6 +114,7 @@ class PerfilesRGB : Fragment() {
         val botonGuardar : ImageButton = view.findViewById(R.id.exportarDatos)
         val botonContinuar : ImageButton = view.findViewById(R.id.botonContinuar)
         val botonGuardarGrises : ImageButton = view.findViewById(R.id.exportarGrises)
+        val botonToFigures : ImageButton = view.findViewById(R.id.toFigures)
 
         val switchRojo: Switch = view.findViewById(R.id.switchRojo)
         val switchVerde: Switch = view.findViewById(R.id.switchVerde)
@@ -143,7 +144,19 @@ class PerfilesRGB : Fragment() {
             exportarDatos()
         }
 
-
+        botonToFigures.setOnClickListener {
+            // Use Safe Args to create the action and pass arguments
+            Navigation.run {
+                findNavController(requireActivity(), R.id.fragment_container).navigate(
+                    PerfilesRGBDirections.actionPerfilesToFiguresFragment(
+                        args.cameraId, args.blueOrder1, args.redOrder1,
+                        args.greenOrder1,args.grisesSinMuestra, args.grisesConMuestra, args.blueOrder2, args.redOrder2,
+                        args.greenOrder2,args.listaIndices,args.posicionEnXOrden0,
+                        args.posicionEnXMaxBlue1
+                    )
+                )
+            }
+        }
 
         botonContinuar.setOnClickListener {
             findNavController().navigate(
@@ -501,4 +514,5 @@ fun beta(p0: Float ,lambda0: Float,f: Float,n : Int): Float {
 fun gris(R: Float, G: Float, B: Float, gamma: Float): Float{
    return (0.3333f*R+0.3333f*G+0.3333f*B)
 }
+
 

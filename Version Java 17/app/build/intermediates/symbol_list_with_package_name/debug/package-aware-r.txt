@@ -1815,6 +1815,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_auto_graph_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1975,6 +1976,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_perfiles_to_figuresFragment
 id action_perfiles_to_menuFragment
 id action_permissions_to_selector
 id action_selector_fragment_to_menuFragment
@@ -2110,6 +2112,7 @@ id expanded_menu
 id exportarDatos
 id exportarGrises
 id fade
+id figuresFragment
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2152,6 +2155,7 @@ id immediateStop
 id included
 id info
 id infowindow
+id intensity_chart
 id invisible
 id inward
 id is_pooling_container_tag
@@ -2285,6 +2289,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id relativeLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2403,6 +2408,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toFigures
 id toggle
 id top
 id topPanel
@@ -2528,6 +2534,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout figures_fragment
 layout fragment_camera
 layout fragment_medir_absorbancia_test
 layout fragment_perfiles_r_g_b

@@ -6,6 +6,7 @@ INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version J
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
 MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/931bdfde02c90617dfc2803824ab066e/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:17:1-24:12
@@ -195,6 +196,8 @@ MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Ve
 MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/931bdfde02c90617dfc2803824ab066e/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41

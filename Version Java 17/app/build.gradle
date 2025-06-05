@@ -45,6 +45,8 @@ android {
 dependencies {
     implementation project(':utils')
 
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
     implementation "androidx.core:core:1.9.0"
     // Kotlin lang
     implementation 'androidx.core:core-ktx:1.10.1'

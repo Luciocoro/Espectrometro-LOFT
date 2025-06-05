@@ -1,0 +1,69 @@
+package com.example.android.camera2.basic.fragments
+
+import android.graphics.Bitmap
+import android.graphics.Color
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageButton
+import android.widget.ImageView
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.navArgs
+import com.example.android.camera2.basic.R
+import android.widget.LinearLayout
+import androidx.navigation.NavOptions
+import androidx.navigation.fragment.findNavController
+import com.github.mikephil.charting.charts.LineChart
+import com.github.mikephil.charting.data.Entry
+import com.github.mikephil.charting.data.LineData
+import com.github.mikephil.charting.data.LineDataSet
+
+class FiguresFragment : Fragment() {
+
+    // Navigation arguments
+    private val args: FiguresFragmentArgs by navArgs()
+
+
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.figures_fragment, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val botonContinuar : ImageButton = view.findViewById(R.id.botonContinuar)
+
+        botonContinuar.setOnClickListener {
+            findNavController().navigate(
+                R.id.permissions_fragment,
+                null,
+                NavOptions.Builder()
+                    .setPopUpTo(findNavController().graph.startDestinationId, true)
+                    .build()
+            )
+        }
+        val intensityChart: LineChart = view.findViewById(R.id.intensity_chart)
+
+        // Plot intensity data (example for blueOrder1)
+        args.blueOrder1?.let { blue1 ->
+            val entries = blue1.mapIndexed { index, value ->
+                Entry(index.toFloat(), value)
+            }
+            val dataSet = LineDataSet(entries, "Blue Order 1 Intensity")
+            dataSet.color = Color.BLUE
+            dataSet.setDrawCircles(false)
+            val lineData = LineData(dataSet)
+            intensityChart.data = lineData
+            intensityChart.description.text = "Intensity vs Pixel Index"
+            intensityChart.invalidate() // Refresh chart
+        }
+
+        }
+}

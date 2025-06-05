@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="162" height="134" style="
+        width:162px;
+        height:134px;
+        background: transparent;
+        fill: none;
+">
+        
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area"><g class="shapes-region" style="stroke: black; fill: none;"><g class="composite-shape axis2d" style="stroke-width: 1; stroke: rgb(0, 0, 0);"><path class="real" d=" M11,100 L111,100 M21,10 L21,110"/><path d=" M104,95 L111,100 L104,105"/><path d=" M16,17 L21,10 L26,17"/></g><g class="composite-shape"><path class="real" d=" M17,93 C46.33,-13 75.67,146 105,40" style="stroke-width: 2; stroke: rgb(126, 211, 33); fill: none; fill-opacity: 1; stroke-opacity: 1;"/></g><g/></g><g/><g/><g/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="132" style="width:160px;height:132px;font-family:Asana-Math, Asana;background:transparent;"></svg>
+</svg>

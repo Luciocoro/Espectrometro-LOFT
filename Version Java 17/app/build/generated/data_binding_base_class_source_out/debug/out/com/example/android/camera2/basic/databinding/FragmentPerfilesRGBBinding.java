@@ -45,10 +45,14 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
   @NonNull
   public final Switch switchVerde;
 
+  @NonNull
+  public final ImageButton toFigures;
+
   private FragmentPerfilesRGBBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton botonContinuar, @NonNull ImageButton exportarDatos,
       @NonNull ImageButton exportarGrises, @NonNull GraphView graph, @NonNull Switch switchAzul,
-      @NonNull Switch switchGris, @NonNull Switch switchRojo, @NonNull Switch switchVerde) {
+      @NonNull Switch switchGris, @NonNull Switch switchRojo, @NonNull Switch switchVerde,
+      @NonNull ImageButton toFigures) {
     this.rootView = rootView;
     this.botonContinuar = botonContinuar;
     this.exportarDatos = exportarDatos;
@@ -58,6 +62,7 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
     this.switchGris = switchGris;
     this.switchRojo = switchRojo;
     this.switchVerde = switchVerde;
+    this.toFigures = toFigures;
   }
 
   @Override
@@ -135,8 +140,15 @@ public final class FragmentPerfilesRGBBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toFigures;
+      ImageButton toFigures = ViewBindings.findChildViewById(rootView, id);
+      if (toFigures == null) {
+        break missingId;
+      }
+
       return new FragmentPerfilesRGBBinding((ConstraintLayout) rootView, botonContinuar,
-          exportarDatos, exportarGrises, graph, switchAzul, switchGris, switchRojo, switchVerde);
+          exportarDatos, exportarGrises, graph, switchAzul, switchGris, switchRojo, switchVerde,
+          toFigures);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
