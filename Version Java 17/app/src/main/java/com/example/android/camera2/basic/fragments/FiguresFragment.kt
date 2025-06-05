@@ -13,6 +13,7 @@ import androidx.navigation.fragment.navArgs
 import com.example.android.camera2.basic.R
 import android.widget.LinearLayout
 import androidx.navigation.NavOptions
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.github.mikephil.charting.charts.LineChart
 import com.github.mikephil.charting.data.Entry
@@ -39,6 +40,7 @@ class FiguresFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val botonContinuar : ImageButton = view.findViewById(R.id.botonContinuar)
+        val backButton : ImageButton = view.findViewById(R.id.backButton)
 
         botonContinuar.setOnClickListener {
             findNavController().navigate(
@@ -49,6 +51,19 @@ class FiguresFragment : Fragment() {
                     .build()
             )
         }
+        backButton.setOnClickListener {
+            findNavController().navigate(
+                FiguresFragmentDirections.actionFiguresFragmentToPerfiles(
+                    args.cameraId, args.blueOrder1, args.redOrder1,
+                    args.greenOrder1,args.grisesSinMuestra, args.grisesConMuestra,
+                    args.blueOrder2, args.redOrder2,args.greenOrder2,
+                    args.listaIndices,args.posicionEnXOrden0,args.posicionEnXMaxBlue1,
+                    args.numberOfPictures,args.exposureTime,args.sensitivity,
+                    args.focalDistance
+                )
+            )
+        }
+
         val intensityChart: LineChart = view.findViewById(R.id.intensity_chart)
 
         // Plot intensity data (example for blueOrder1)

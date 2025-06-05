@@ -238,7 +238,7 @@ class MedirAbsorbanciaTest : Fragment() {
                     findNavController(requireActivity(), R.id.fragment_container).navigate(
                                 MedirAbsorbanciaTestDirections.actionMedirAbsorbanciaTestToCaptura(
                                     prueba,
-                                    args.cameraId,
+                                    args.cameraId,args.pixelFormat,
                                     blueOrder1.toFloatArray(),
                                     redOrder1.toFloatArray(),
                                     greenOrder1.toFloatArray(),
@@ -250,7 +250,8 @@ class MedirAbsorbanciaTest : Fragment() {
                                     blueX1,
                                     grisesSinMuestraMatrix,
                                     grisesConMuestraMatrix,
-                                    args.numberOfPictures,args.exposureTime,args.sensitivity,args.focalDistance,
+                                    args.numberOfPictures,args.exposureTime,args.sensitivity,
+                                    args.focalDistance
                                 )
                             )
                 }

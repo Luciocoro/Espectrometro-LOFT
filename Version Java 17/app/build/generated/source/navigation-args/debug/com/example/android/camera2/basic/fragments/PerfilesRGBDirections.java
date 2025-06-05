@@ -29,8 +29,9 @@ public class PerfilesRGBDirections {
       @NonNull float[] greenOrder1, @NonNull FloatMatrix grisesSinMuestra,
       @NonNull FloatMatrix grisesConMuestra, @NonNull float[] blueOrder2,
       @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-      int posicionEnXOrden0, int posicionEnXMaxBlue1) {
-    return new ActionPerfilesToFiguresFragment(cameraId, blueOrder1, redOrder1, greenOrder1, grisesSinMuestra, grisesConMuestra, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1);
+      int posicionEnXOrden0, int posicionEnXMaxBlue1, int numberOfPictures, long exposureTime,
+      int sensitivity, float focalDistance) {
+    return new ActionPerfilesToFiguresFragment(cameraId, blueOrder1, redOrder1, greenOrder1, grisesSinMuestra, grisesConMuestra, blueOrder2, redOrder2, greenOrder2, listaIndices, posicionEnXOrden0, posicionEnXMaxBlue1, numberOfPictures, exposureTime, sensitivity, focalDistance);
   }
 
   public static class ActionPerfilesToMenuFragment implements NavDirections {
@@ -147,7 +148,8 @@ public class PerfilesRGBDirections {
         @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
         @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
-        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1,
+        int numberOfPictures, long exposureTime, int sensitivity, float focalDistance) {
       if (cameraId == null) {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
@@ -190,6 +192,10 @@ public class PerfilesRGBDirections {
       this.arguments.put("listaIndices", listaIndices);
       this.arguments.put("posicionEnXOrden0", posicionEnXOrden0);
       this.arguments.put("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      this.arguments.put("exposureTime", exposureTime);
+      this.arguments.put("sensitivity", sensitivity);
+      this.arguments.put("focalDistance", focalDistance);
     }
 
     @NonNull
@@ -308,6 +314,34 @@ public class PerfilesRGBDirections {
       return this;
     }
 
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionPerfilesToFiguresFragment setNumberOfPictures(int numberOfPictures) {
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionPerfilesToFiguresFragment setExposureTime(long exposureTime) {
+      this.arguments.put("exposureTime", exposureTime);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionPerfilesToFiguresFragment setSensitivity(int sensitivity) {
+      this.arguments.put("sensitivity", sensitivity);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionPerfilesToFiguresFragment setFocalDistance(float focalDistance) {
+      this.arguments.put("focalDistance", focalDistance);
+      return this;
+    }
+
     @Override
     @SuppressWarnings("unchecked")
     @NonNull
@@ -372,6 +406,22 @@ public class PerfilesRGBDirections {
       if (arguments.containsKey("posicionEnXMaxBlue1")) {
         int posicionEnXMaxBlue1 = (int) arguments.get("posicionEnXMaxBlue1");
         __result.putInt("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+      }
+      if (arguments.containsKey("numberOfPictures")) {
+        int numberOfPictures = (int) arguments.get("numberOfPictures");
+        __result.putInt("numberOfPictures", numberOfPictures);
+      }
+      if (arguments.containsKey("exposureTime")) {
+        long exposureTime = (long) arguments.get("exposureTime");
+        __result.putLong("exposureTime", exposureTime);
+      }
+      if (arguments.containsKey("sensitivity")) {
+        int sensitivity = (int) arguments.get("sensitivity");
+        __result.putInt("sensitivity", sensitivity);
+      }
+      if (arguments.containsKey("focalDistance")) {
+        float focalDistance = (float) arguments.get("focalDistance");
+        __result.putFloat("focalDistance", focalDistance);
       }
       return __result;
     }
@@ -449,6 +499,26 @@ public class PerfilesRGBDirections {
     @SuppressWarnings("unchecked")
     public int getPosicionEnXMaxBlue1() {
       return (int) arguments.get("posicionEnXMaxBlue1");
+    }
+
+    @SuppressWarnings("unchecked")
+    public int getNumberOfPictures() {
+      return (int) arguments.get("numberOfPictures");
+    }
+
+    @SuppressWarnings("unchecked")
+    public long getExposureTime() {
+      return (long) arguments.get("exposureTime");
+    }
+
+    @SuppressWarnings("unchecked")
+    public int getSensitivity() {
+      return (int) arguments.get("sensitivity");
+    }
+
+    @SuppressWarnings("unchecked")
+    public float getFocalDistance() {
+      return (float) arguments.get("focalDistance");
     }
 
     @Override
@@ -532,6 +602,30 @@ public class PerfilesRGBDirections {
       if (getPosicionEnXMaxBlue1() != that.getPosicionEnXMaxBlue1()) {
         return false;
       }
+      if (arguments.containsKey("numberOfPictures") != that.arguments.containsKey("numberOfPictures")) {
+        return false;
+      }
+      if (getNumberOfPictures() != that.getNumberOfPictures()) {
+        return false;
+      }
+      if (arguments.containsKey("exposureTime") != that.arguments.containsKey("exposureTime")) {
+        return false;
+      }
+      if (getExposureTime() != that.getExposureTime()) {
+        return false;
+      }
+      if (arguments.containsKey("sensitivity") != that.arguments.containsKey("sensitivity")) {
+        return false;
+      }
+      if (getSensitivity() != that.getSensitivity()) {
+        return false;
+      }
+      if (arguments.containsKey("focalDistance") != that.arguments.containsKey("focalDistance")) {
+        return false;
+      }
+      if (Float.compare(that.getFocalDistance(), getFocalDistance()) != 0) {
+        return false;
+      }
       if (getActionId() != that.getActionId()) {
         return false;
       }
@@ -553,6 +647,10 @@ public class PerfilesRGBDirections {
       result = 31 * result + java.util.Arrays.hashCode(getListaIndices());
       result = 31 * result + getPosicionEnXOrden0();
       result = 31 * result + getPosicionEnXMaxBlue1();
+      result = 31 * result + getNumberOfPictures();
+      result = 31 * result + (int)(getExposureTime() ^ (getExposureTime() >>> 32));
+      result = 31 * result + getSensitivity();
+      result = 31 * result + Float.floatToIntBits(getFocalDistance());
       result = 31 * result + getActionId();
       return result;
     }
@@ -572,6 +670,10 @@ public class PerfilesRGBDirections {
           + ", listaIndices=" + getListaIndices()
           + ", posicionEnXOrden0=" + getPosicionEnXOrden0()
           + ", posicionEnXMaxBlue1=" + getPosicionEnXMaxBlue1()
+          + ", numberOfPictures=" + getNumberOfPictures()
+          + ", exposureTime=" + getExposureTime()
+          + ", sensitivity=" + getSensitivity()
+          + ", focalDistance=" + getFocalDistance()
           + "}";
     }
   }

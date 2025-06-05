@@ -55,6 +55,7 @@ import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.content.ContextCompat.startActivity
 import androidx.core.content.FileProvider
 import androidx.core.graphics.drawable.toAdaptiveIcon
+import androidx.navigation.fragment.findNavController
 //import kotlinx.android.synthetic.main.absorbancia_calib.*
 //import kotlinx.android.synthetic.main.captura.*
 //import kotlinx.android.synthetic.main.fragment_camera.capture_button
@@ -105,6 +106,16 @@ class captura : Fragment() {
         captura.setImageDrawable(bitmapRotado)
 
         val botonContinuar : ImageButton = view.findViewById(R.id.botonContinuar)
+        val botonRetroceder : ImageButton = view.findViewById(R.id.botonRetroceder)
+
+        botonRetroceder.setOnClickListener {
+            findNavController().navigate(
+                capturaDirections.actionCapturaToMedirAbsorbanciaTest(
+                    args.cameraId,args.pixelFormat,args.numberOfPictures,
+                    args.exposureTime,args.sensitivity,args.focalDistance
+                )
+            )
+        }
 //        println("ULTIMO AZUL "+args.blueOrder1IndexList.last())
         botonContinuar.setOnClickListener {
             Navigation.findNavController(requireActivity(), R.id.fragment_container).navigate(

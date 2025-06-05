@@ -180,6 +180,11 @@
             app:nullable="false"
             />
         <argument
+            android:name="pixel_format"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
             android:name="blueOrder1"
             app:argType="float[]"
             app:nullable="false"
@@ -257,6 +262,10 @@
             android:id="@+id/actionCapturaToPerfiles"
             app:destination="@id/perfiles"
             />
+        <action
+            android:id="@+id/action_captura_to_MedirAbsorbanciaTest"
+            app:destination="@id/MedirAbsorbanciaTest"/>
+
     </fragment>
 
     <fragment
@@ -441,6 +450,29 @@
             app:argType="integer"
             app:nullable="false"
             />
+        <argument
+            android:name="numberOfPictures"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="exposureTime"
+            app:argType="long"
+            app:nullable="false"
+            />
+        <argument
+            android:name="sensitivity"
+            app:argType="integer"
+            app:nullable="false"
+            />
+        <argument
+            android:name="focalDistance"
+            app:argType="float"
+            app:nullable="false"
+            />
+        <action
+            android:id="@+id/action_figuresFragment_to_perfiles"
+            app:destination="@id/perfiles" />
     </fragment>
 
 </navigation>

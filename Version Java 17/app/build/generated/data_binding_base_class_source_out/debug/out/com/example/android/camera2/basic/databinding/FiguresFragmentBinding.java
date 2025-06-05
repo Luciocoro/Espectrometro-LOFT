@@ -21,6 +21,9 @@ public final class FiguresFragmentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
   public final ImageButton botonContinuar;
 
   @NonNull
@@ -30,9 +33,10 @@ public final class FiguresFragmentBinding implements ViewBinding {
   public final ConstraintLayout relativeLayout;
 
   private FiguresFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton botonContinuar, @NonNull LineChart intensityChart,
-      @NonNull ConstraintLayout relativeLayout) {
+      @NonNull ImageButton backButton, @NonNull ImageButton botonContinuar,
+      @NonNull LineChart intensityChart, @NonNull ConstraintLayout relativeLayout) {
     this.rootView = rootView;
+    this.backButton = backButton;
     this.botonContinuar = botonContinuar;
     this.intensityChart = intensityChart;
     this.relativeLayout = relativeLayout;
@@ -65,6 +69,12 @@ public final class FiguresFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.botonContinuar;
       ImageButton botonContinuar = ViewBindings.findChildViewById(rootView, id);
       if (botonContinuar == null) {
@@ -79,8 +89,8 @@ public final class FiguresFragmentBinding implements ViewBinding {
 
       ConstraintLayout relativeLayout = (ConstraintLayout) rootView;
 
-      return new FiguresFragmentBinding((ConstraintLayout) rootView, botonContinuar, intensityChart,
-          relativeLayout);
+      return new FiguresFragmentBinding((ConstraintLayout) rootView, backButton, botonContinuar,
+          intensityChart, relativeLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

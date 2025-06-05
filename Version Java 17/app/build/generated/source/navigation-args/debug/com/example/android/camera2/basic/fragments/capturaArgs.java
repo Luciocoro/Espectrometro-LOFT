@@ -57,6 +57,13 @@ public class capturaArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"camera_id\" is missing and does not have an android:defaultValue");
     }
+    if (bundle.containsKey("pixel_format")) {
+      int pixelFormat;
+      pixelFormat = bundle.getInt("pixel_format");
+      __result.arguments.put("pixel_format", pixelFormat);
+    } else {
+      throw new IllegalArgumentException("Required argument \"pixel_format\" is missing and does not have an android:defaultValue");
+    }
     if (bundle.containsKey("blueOrder1")) {
       float[] blueOrder1;
       blueOrder1 = bundle.getFloatArray("blueOrder1");
@@ -224,6 +231,13 @@ public class capturaArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"camera_id\" is missing and does not have an android:defaultValue");
     }
+    if (savedStateHandle.contains("pixel_format")) {
+      int pixelFormat;
+      pixelFormat = savedStateHandle.get("pixel_format");
+      __result.arguments.put("pixel_format", pixelFormat);
+    } else {
+      throw new IllegalArgumentException("Required argument \"pixel_format\" is missing and does not have an android:defaultValue");
+    }
     if (savedStateHandle.contains("blueOrder1")) {
       float[] blueOrder1;
       blueOrder1 = savedStateHandle.get("blueOrder1");
@@ -372,6 +386,11 @@ public class capturaArgs implements NavArgs {
   }
 
   @SuppressWarnings("unchecked")
+  public int getPixelFormat() {
+    return (int) arguments.get("pixel_format");
+  }
+
+  @SuppressWarnings("unchecked")
   @NonNull
   public float[] getBlueOrder1() {
     return (float[]) arguments.get("blueOrder1");
@@ -473,6 +492,10 @@ public class capturaArgs implements NavArgs {
       String cameraId = (String) arguments.get("camera_id");
       __result.putString("camera_id", cameraId);
     }
+    if (arguments.containsKey("pixel_format")) {
+      int pixelFormat = (int) arguments.get("pixel_format");
+      __result.putInt("pixel_format", pixelFormat);
+    }
     if (arguments.containsKey("blueOrder1")) {
       float[] blueOrder1 = (float[]) arguments.get("blueOrder1");
       __result.putFloatArray("blueOrder1", blueOrder1);
@@ -565,6 +588,10 @@ public class capturaArgs implements NavArgs {
     if (arguments.containsKey("camera_id")) {
       String cameraId = (String) arguments.get("camera_id");
       __result.set("camera_id", cameraId);
+    }
+    if (arguments.containsKey("pixel_format")) {
+      int pixelFormat = (int) arguments.get("pixel_format");
+      __result.set("pixel_format", pixelFormat);
     }
     if (arguments.containsKey("blueOrder1")) {
       float[] blueOrder1 = (float[]) arguments.get("blueOrder1");
@@ -660,6 +687,12 @@ public class capturaArgs implements NavArgs {
       return false;
     }
     if (getCameraId() != null ? !getCameraId().equals(that.getCameraId()) : that.getCameraId() != null) {
+      return false;
+    }
+    if (arguments.containsKey("pixel_format") != that.arguments.containsKey("pixel_format")) {
+      return false;
+    }
+    if (getPixelFormat() != that.getPixelFormat()) {
       return false;
     }
     if (arguments.containsKey("blueOrder1") != that.arguments.containsKey("blueOrder1")) {
@@ -760,6 +793,7 @@ public class capturaArgs implements NavArgs {
     int result = 1;
     result = 31 * result + (getBitmap() != null ? getBitmap().hashCode() : 0);
     result = 31 * result + (getCameraId() != null ? getCameraId().hashCode() : 0);
+    result = 31 * result + getPixelFormat();
     result = 31 * result + java.util.Arrays.hashCode(getBlueOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getRedOrder1());
     result = 31 * result + java.util.Arrays.hashCode(getGreenOrder1());
@@ -783,6 +817,7 @@ public class capturaArgs implements NavArgs {
     return "capturaArgs{"
         + "bitmap=" + getBitmap()
         + ", cameraId=" + getCameraId()
+        + ", pixelFormat=" + getPixelFormat()
         + ", blueOrder1=" + getBlueOrder1()
         + ", redOrder1=" + getRedOrder1()
         + ", greenOrder1=" + getGreenOrder1()
@@ -810,12 +845,12 @@ public class capturaArgs implements NavArgs {
     }
 
     @SuppressWarnings("unchecked")
-    public Builder(@NonNull Bitmap bitmap, @NonNull String cameraId, @NonNull float[] blueOrder1,
-        @NonNull float[] redOrder1, @NonNull float[] greenOrder1, @NonNull float[] blueOrder2,
-        @NonNull float[] redOrder2, @NonNull float[] greenOrder2, @NonNull float[] listaIndices,
-        int posicionEnXOrden0, int posicionEnXMaxBlue1, @NonNull FloatMatrix grisesSinMuestra,
-        @NonNull FloatMatrix grisesConMuestra, int numberOfPictures, long exposureTime,
-        int sensitivity, float focalDistance) {
+    public Builder(@NonNull Bitmap bitmap, @NonNull String cameraId, int pixelFormat,
+        @NonNull float[] blueOrder1, @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
+        @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1,
+        @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
+        int numberOfPictures, long exposureTime, int sensitivity, float focalDistance) {
       if (bitmap == null) {
         throw new IllegalArgumentException("Argument \"bitmap\" is marked as non-null but was passed a null value.");
       }
@@ -824,6 +859,7 @@ public class capturaArgs implements NavArgs {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("camera_id", cameraId);
+      this.arguments.put("pixel_format", pixelFormat);
       if (blueOrder1 == null) {
         throw new IllegalArgumentException("Argument \"blueOrder1\" is marked as non-null but was passed a null value.");
       }
@@ -891,6 +927,13 @@ public class capturaArgs implements NavArgs {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("camera_id", cameraId);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setPixelFormat(int pixelFormat) {
+      this.arguments.put("pixel_format", pixelFormat);
       return this;
     }
 
@@ -1036,6 +1079,11 @@ public class capturaArgs implements NavArgs {
     @NonNull
     public String getCameraId() {
       return (String) arguments.get("camera_id");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    public int getPixelFormat() {
+      return (int) arguments.get("pixel_format");
     }
 
     @SuppressWarnings({"unchecked","GetterOnBuilder"})

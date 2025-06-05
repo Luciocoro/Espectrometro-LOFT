@@ -154,6 +154,34 @@ public class FiguresFragmentArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"posicionEnXMaxBlue1\" is missing and does not have an android:defaultValue");
     }
+    if (bundle.containsKey("numberOfPictures")) {
+      int numberOfPictures;
+      numberOfPictures = bundle.getInt("numberOfPictures");
+      __result.arguments.put("numberOfPictures", numberOfPictures);
+    } else {
+      throw new IllegalArgumentException("Required argument \"numberOfPictures\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("exposureTime")) {
+      long exposureTime;
+      exposureTime = bundle.getLong("exposureTime");
+      __result.arguments.put("exposureTime", exposureTime);
+    } else {
+      throw new IllegalArgumentException("Required argument \"exposureTime\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("sensitivity")) {
+      int sensitivity;
+      sensitivity = bundle.getInt("sensitivity");
+      __result.arguments.put("sensitivity", sensitivity);
+    } else {
+      throw new IllegalArgumentException("Required argument \"sensitivity\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("focalDistance")) {
+      float focalDistance;
+      focalDistance = bundle.getFloat("focalDistance");
+      __result.arguments.put("focalDistance", focalDistance);
+    } else {
+      throw new IllegalArgumentException("Required argument \"focalDistance\" is missing and does not have an android:defaultValue");
+    }
     return __result;
   }
 
@@ -276,6 +304,34 @@ public class FiguresFragmentArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"posicionEnXMaxBlue1\" is missing and does not have an android:defaultValue");
     }
+    if (savedStateHandle.contains("numberOfPictures")) {
+      int numberOfPictures;
+      numberOfPictures = savedStateHandle.get("numberOfPictures");
+      __result.arguments.put("numberOfPictures", numberOfPictures);
+    } else {
+      throw new IllegalArgumentException("Required argument \"numberOfPictures\" is missing and does not have an android:defaultValue");
+    }
+    if (savedStateHandle.contains("exposureTime")) {
+      long exposureTime;
+      exposureTime = savedStateHandle.get("exposureTime");
+      __result.arguments.put("exposureTime", exposureTime);
+    } else {
+      throw new IllegalArgumentException("Required argument \"exposureTime\" is missing and does not have an android:defaultValue");
+    }
+    if (savedStateHandle.contains("sensitivity")) {
+      int sensitivity;
+      sensitivity = savedStateHandle.get("sensitivity");
+      __result.arguments.put("sensitivity", sensitivity);
+    } else {
+      throw new IllegalArgumentException("Required argument \"sensitivity\" is missing and does not have an android:defaultValue");
+    }
+    if (savedStateHandle.contains("focalDistance")) {
+      float focalDistance;
+      focalDistance = savedStateHandle.get("focalDistance");
+      __result.arguments.put("focalDistance", focalDistance);
+    } else {
+      throw new IllegalArgumentException("Required argument \"focalDistance\" is missing and does not have an android:defaultValue");
+    }
     return __result;
   }
 
@@ -350,6 +406,26 @@ public class FiguresFragmentArgs implements NavArgs {
   }
 
   @SuppressWarnings("unchecked")
+  public int getNumberOfPictures() {
+    return (int) arguments.get("numberOfPictures");
+  }
+
+  @SuppressWarnings("unchecked")
+  public long getExposureTime() {
+    return (long) arguments.get("exposureTime");
+  }
+
+  @SuppressWarnings("unchecked")
+  public int getSensitivity() {
+    return (int) arguments.get("sensitivity");
+  }
+
+  @SuppressWarnings("unchecked")
+  public float getFocalDistance() {
+    return (float) arguments.get("focalDistance");
+  }
+
+  @SuppressWarnings("unchecked")
   @NonNull
   public Bundle toBundle() {
     Bundle __result = new Bundle();
@@ -412,6 +488,22 @@ public class FiguresFragmentArgs implements NavArgs {
     if (arguments.containsKey("posicionEnXMaxBlue1")) {
       int posicionEnXMaxBlue1 = (int) arguments.get("posicionEnXMaxBlue1");
       __result.putInt("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+    }
+    if (arguments.containsKey("numberOfPictures")) {
+      int numberOfPictures = (int) arguments.get("numberOfPictures");
+      __result.putInt("numberOfPictures", numberOfPictures);
+    }
+    if (arguments.containsKey("exposureTime")) {
+      long exposureTime = (long) arguments.get("exposureTime");
+      __result.putLong("exposureTime", exposureTime);
+    }
+    if (arguments.containsKey("sensitivity")) {
+      int sensitivity = (int) arguments.get("sensitivity");
+      __result.putInt("sensitivity", sensitivity);
+    }
+    if (arguments.containsKey("focalDistance")) {
+      float focalDistance = (float) arguments.get("focalDistance");
+      __result.putFloat("focalDistance", focalDistance);
     }
     return __result;
   }
@@ -479,6 +571,22 @@ public class FiguresFragmentArgs implements NavArgs {
     if (arguments.containsKey("posicionEnXMaxBlue1")) {
       int posicionEnXMaxBlue1 = (int) arguments.get("posicionEnXMaxBlue1");
       __result.set("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+    }
+    if (arguments.containsKey("numberOfPictures")) {
+      int numberOfPictures = (int) arguments.get("numberOfPictures");
+      __result.set("numberOfPictures", numberOfPictures);
+    }
+    if (arguments.containsKey("exposureTime")) {
+      long exposureTime = (long) arguments.get("exposureTime");
+      __result.set("exposureTime", exposureTime);
+    }
+    if (arguments.containsKey("sensitivity")) {
+      int sensitivity = (int) arguments.get("sensitivity");
+      __result.set("sensitivity", sensitivity);
+    }
+    if (arguments.containsKey("focalDistance")) {
+      float focalDistance = (float) arguments.get("focalDistance");
+      __result.set("focalDistance", focalDistance);
     }
     return __result;
   }
@@ -564,6 +672,30 @@ public class FiguresFragmentArgs implements NavArgs {
     if (getPosicionEnXMaxBlue1() != that.getPosicionEnXMaxBlue1()) {
       return false;
     }
+    if (arguments.containsKey("numberOfPictures") != that.arguments.containsKey("numberOfPictures")) {
+      return false;
+    }
+    if (getNumberOfPictures() != that.getNumberOfPictures()) {
+      return false;
+    }
+    if (arguments.containsKey("exposureTime") != that.arguments.containsKey("exposureTime")) {
+      return false;
+    }
+    if (getExposureTime() != that.getExposureTime()) {
+      return false;
+    }
+    if (arguments.containsKey("sensitivity") != that.arguments.containsKey("sensitivity")) {
+      return false;
+    }
+    if (getSensitivity() != that.getSensitivity()) {
+      return false;
+    }
+    if (arguments.containsKey("focalDistance") != that.arguments.containsKey("focalDistance")) {
+      return false;
+    }
+    if (Float.compare(that.getFocalDistance(), getFocalDistance()) != 0) {
+      return false;
+    }
     return true;
   }
 
@@ -582,6 +714,10 @@ public class FiguresFragmentArgs implements NavArgs {
     result = 31 * result + java.util.Arrays.hashCode(getListaIndices());
     result = 31 * result + getPosicionEnXOrden0();
     result = 31 * result + getPosicionEnXMaxBlue1();
+    result = 31 * result + getNumberOfPictures();
+    result = 31 * result + (int)(getExposureTime() ^ (getExposureTime() >>> 32));
+    result = 31 * result + getSensitivity();
+    result = 31 * result + Float.floatToIntBits(getFocalDistance());
     return result;
   }
 
@@ -600,6 +736,10 @@ public class FiguresFragmentArgs implements NavArgs {
         + ", listaIndices=" + getListaIndices()
         + ", posicionEnXOrden0=" + getPosicionEnXOrden0()
         + ", posicionEnXMaxBlue1=" + getPosicionEnXMaxBlue1()
+        + ", numberOfPictures=" + getNumberOfPictures()
+        + ", exposureTime=" + getExposureTime()
+        + ", sensitivity=" + getSensitivity()
+        + ", focalDistance=" + getFocalDistance()
         + "}";
   }
 
@@ -616,7 +756,8 @@ public class FiguresFragmentArgs implements NavArgs {
         @NonNull float[] redOrder1, @NonNull float[] greenOrder1,
         @NonNull FloatMatrix grisesSinMuestra, @NonNull FloatMatrix grisesConMuestra,
         @NonNull float[] blueOrder2, @NonNull float[] redOrder2, @NonNull float[] greenOrder2,
-        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1) {
+        @NonNull float[] listaIndices, int posicionEnXOrden0, int posicionEnXMaxBlue1,
+        int numberOfPictures, long exposureTime, int sensitivity, float focalDistance) {
       if (cameraId == null) {
         throw new IllegalArgumentException("Argument \"camera_id\" is marked as non-null but was passed a null value.");
       }
@@ -659,6 +800,10 @@ public class FiguresFragmentArgs implements NavArgs {
       this.arguments.put("listaIndices", listaIndices);
       this.arguments.put("posicionEnXOrden0", posicionEnXOrden0);
       this.arguments.put("posicionEnXMaxBlue1", posicionEnXMaxBlue1);
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      this.arguments.put("exposureTime", exposureTime);
+      this.arguments.put("sensitivity", sensitivity);
+      this.arguments.put("focalDistance", focalDistance);
     }
 
     @NonNull
@@ -781,6 +926,34 @@ public class FiguresFragmentArgs implements NavArgs {
       return this;
     }
 
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setNumberOfPictures(int numberOfPictures) {
+      this.arguments.put("numberOfPictures", numberOfPictures);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setExposureTime(long exposureTime) {
+      this.arguments.put("exposureTime", exposureTime);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setSensitivity(int sensitivity) {
+      this.arguments.put("sensitivity", sensitivity);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public Builder setFocalDistance(float focalDistance) {
+      this.arguments.put("focalDistance", focalDistance);
+      return this;
+    }
+
     @SuppressWarnings({"unchecked","GetterOnBuilder"})
     @NonNull
     public String getCameraId() {
@@ -849,6 +1022,26 @@ public class FiguresFragmentArgs implements NavArgs {
     @SuppressWarnings({"unchecked","GetterOnBuilder"})
     public int getPosicionEnXMaxBlue1() {
       return (int) arguments.get("posicionEnXMaxBlue1");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    public int getNumberOfPictures() {
+      return (int) arguments.get("numberOfPictures");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    public long getExposureTime() {
+      return (long) arguments.get("exposureTime");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    public int getSensitivity() {
+      return (int) arguments.get("sensitivity");
+    }
+
+    @SuppressWarnings({"unchecked","GetterOnBuilder"})
+    public float getFocalDistance() {
+      return (float) arguments.get("focalDistance");
     }
   }
 }

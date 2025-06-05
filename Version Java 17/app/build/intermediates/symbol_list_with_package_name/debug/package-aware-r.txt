@@ -1815,6 +1815,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable baseline_auto_graph_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1967,9 +1968,11 @@ id action_bar_subtitle
 id action_bar_title
 id action_camera_fragment_to_imagenEspectroFragment
 id action_camera_to_permissions
+id action_captura_to_MedirAbsorbanciaTest
 id action_container
 id action_context_bar
 id action_divider
+id action_figuresFragment_to_perfiles
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -2001,6 +2004,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
