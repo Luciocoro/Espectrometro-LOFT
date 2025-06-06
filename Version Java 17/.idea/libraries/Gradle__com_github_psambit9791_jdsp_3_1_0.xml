@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.psambit9791:jdsp:3.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.psambit9791" artifactId="jdsp" version="3.1.0" baseVersion="3.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.psambit9791/jdsp/3.1.0/9944d31072bc466b4cbf39668d9c016d2dff9580/jdsp-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.psambit9791/jdsp/3.1.0/179f46899c6ac143f9e68a43a6e860b8792ea838/jdsp-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.psambit9791/jdsp/3.1.0/d2205870b1735b65f62a0ff53a59e3104508ab7c/jdsp-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

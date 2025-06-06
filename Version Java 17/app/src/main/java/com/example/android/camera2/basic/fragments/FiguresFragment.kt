@@ -67,7 +67,7 @@ class FiguresFragment : Fragment() {
         val intensityChart: LineChart = view.findViewById(R.id.intensity_chart)
 
         // Plot intensity data (example for blueOrder1)
-        args.blueOrder1?.let { blue1 ->
+        args.blueOrder1.let { blue1 ->
             val entries = blue1.mapIndexed { index, value ->
                 Entry(index.toFloat(), value)
             }

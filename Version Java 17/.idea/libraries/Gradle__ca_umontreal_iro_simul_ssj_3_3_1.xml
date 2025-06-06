@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: ca.umontreal.iro.simul:ssj:3.3.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="ca.umontreal.iro.simul" artifactId="ssj" version="3.3.1" baseVersion="3.3.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ca.umontreal.iro.simul/ssj/3.3.1/6c5f2cb68dc369d17d331e4566db0a4bbafd0269/ssj-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ca.umontreal.iro.simul/ssj/3.3.1/93829ca5f3d51fd485a8e3e81284ebd72b0ed0c3/ssj-3.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ca.umontreal.iro.simul/ssj/3.3.1/ee5baa2496cf39405a0e423d256454635ccc982/ssj-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
