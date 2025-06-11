@@ -4,164 +4,160 @@ ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
-MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/931bdfde02c90617dfc2803824ab066e/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/transforms-3/4f8ee4c5d3dae83008d818814c4608c1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/3e0b91d563dcbad1c20f503b0add4e50/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/f217b0a43407bd18f5bfd57e50a6de6e/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/f7fb875a8de4dca7f64928577b7b7556/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/0a3d59a850b26901820a70ce438515e6/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/6d1087e7589f190deb05d8d4d3d94f6a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/697d8860e94cb804fc6039902b09006e/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e17eda4fdb02cf448c7a9b28c9793a89/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/fbb417e3216afad3c9045fbd63f72947/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/transforms-3/d20b483baa4f3aac94c19b67e5f4102f/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a18685307a74a0358b9f145b6586bfc5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/3072b3efbfe3ebc9df0a92c2648fb0db/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/3df6bf2cee582ae171f102568da79b1e/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/fb8468fb5b44224a2cbdb12d6854117a/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/f57ce1c5ff51a8b2a43757ec2ec24625/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/27d991b44e8d17b9a8b6cd5118da229b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/348313614aa3295c546d0f9451a597fb/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/64faf7c93ed8114c07455ab2c3347720/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/fd124211b708b5e8f399cf1736062a39/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/ad490b1a80c3f8970dc869a4410a91a2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a78e8fd38e21dca68efbfc329e41e5f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/2ab779dec8739ceea892a6a97e6653f6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/12d723ede5de0e755867a90610f27a8c/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/244c9adb17124a649f8ab875c93e4b3b/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/8b3495b599ce91a1b2092efebd0362ef/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/c10ac63a94339fb7f10e7b3827d3de69/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/07a2a1d2e539550d23010842ddb21133/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/50731bb016f272319d8c43abb3e9dcc8/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/12bc442d55686baab4d3fa39fbc65500/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/622128fc3d0ba9a7c2ec46642d3a7be0/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/24582cbef64fcd1ffb571452baedf662/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/a3bf88465f47639617e6fa70106e1bd7/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/2f506fddbeeef4292fbe4f9a2a7397fa/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/da1d91d28d4d0bd25a788fadd3636f18/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/5c7b053fdf1fcd3b23f2f4165c92cc46/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/893df82669c6d43ad751165f6abae57b/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a0fe36620b505445a9df529a9712865a/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/94dd60a9f459fe10bea019f681bb1521/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/67aeeb616cd5d4a05105c1033ccc1369/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/065a9f3f6eeca4b051aab3bc10f38c99/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/71cb514a5fbd0ee8ebe45c8f12de6d1a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/1ee6deeb04cdc9b3e95368e47db7c03c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/93e49dce7d6d9bde062f02fbeef112d5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/aaaffc22efeafa97d0fc9929c2c53237/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e900a46460439d2fd8aa1384dbaf4d28/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/11c1564683d6bb3cb457413f0ab50c84/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/d031e1f23eb5085f848baf8b6c60a32f/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/transforms-3/69db45eef7279f69dedd6f74551f2f83/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:2:1-10:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a1f5216837a159b52eaa6ba3bde2e168/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/97508e5ca2dc89a7fffc4ae626aa72d7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/7685e605287b50cbc89a72c9ada52697/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/59bc2f27a0afad24d8d011ea228df7a3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/69f174b1357245d0f302223c1551a8fb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/892c15765740daf8de5ac65eb47bd10f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/554569b6e169be1b029d79d35379195f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/b4b462115be8fc9ca4d0fd1fa52723c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/eedfb60680450edd381b76de6fbd6e26/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/4e93935c97e47bfe843d8ff58fa5c972/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/59ad98484f66b0f3f71325935944b707/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/02fa28acce79057e4a72e4bb8d7f4bec/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
-INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
-INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
+MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:8.9.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3cfb624291680af8750aba7606308d5c/transformed/jetified-viewbinding-8.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/0dd9655b9d579d889dc300d97ca68fb9/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/45cd33de6a21ba874a924c48d1dd441b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e346a5f1332155647c0aa5b4fafbc4fe/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/018a261955620e5c2ab39ae015187272/transformed/material-1.4.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91f641883bfcb3b508aad3ede23b631d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/afbb1a33f91c004729e77f77dd930c76/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8152d4896d9ae8aad07bd3ff486b03eb/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9e0b5a661f3844597a32bc8c15c2193b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4130f3ec9e53b8e836c7c44c1b574336/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4af5fc505eb0c6edf47ace0b706afe2a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ae4b0bbff0d39e42afb6b00520284798/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/de3756e3ca803a3713042c6b424d6d06/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fdf23a2daadfb26d37fe35c3fa90a150/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b8ffd60201fc3d62a42e8a16d276b889/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/865e2aafb714b4cb91519b6a512abdc6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/221db1ad100efe4295154b2aabf34c3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e355053f5576aa1a02b2843a55f3bf8/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4faafda329600bf41a2207febc8a3764/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/03b22de2c0f4b2df3dd2e774c0c88113/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fd28372231e4d624c22ffb87fb359b2d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02ad066f813b4e7057c8b02b2df5d0cf/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a353c14d664806ca118dd9057facf48d/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/58f3716810a422073c3c673739df5be0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/12fcf025b3fc11a76c0be2eea3b51422/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7a491df82b5676a3a8b9bc742914a884/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8786274a3dfe09f35dac5460cf8991e5/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a5e6625a592d36646f10f756d52d7993/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c75107318f0a30d5f94e2d8a5de6192e/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f2bbb64e55f7d2d3a83cc96b0c3b935c/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/87a1259df19268257e16fed28f939198/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/dbf3f63a128c38b36ce994c364f82ebb/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9b9531bf238c3abbc030e18a29ee48d9/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c778f38a59f03e522238d3d33717c080/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91b38a1ac332fd37a00fe751e4a1626c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/93687eef54d9cf2813dbfa9c3e9c2b4b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/73a313f13a98f2907907cb4a2d43fe8b/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5cc16e073ee0ff3990f8e4dd34b72c91/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6b5e477a04c06dba94f7b55b85e091f0/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6882e4a052a0052a537376ff46872497/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2475695105f59206ce5f1a1fbf3e1135/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b83ddfc2acb1c6aab1e53e1b23f19d9a/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e228b09c0cf434ba89eac7ef6da84fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2d6e0cb19c67557f8a7e42111b1049c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9269ec6bbf0ec2b78cf6170ae6757d9/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/33f0fbfeba68ff3b1a1730ab812d70e4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/713019c79c68f867d93d0c0bd4d47a19/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6cf3ada999fe4b47064e6834c9927560/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3ecffc7028f8115b91c464299d541794/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/bb78456f2d3bd44bdbb8e82ca3162402/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/77792d5f2ea2035568ff5030edded749/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4581f7d22579bb21520d48c333c879e1/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2de5bff5363bab203ed5de5e2a99c983/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5694f6d13756cfcf2e9587e6dddbfedf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7f6d2bccec168385fc143534d0e602c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f291948614ec11e348b308b08ba2af3d/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ef67ae135007d70726de78eed421c7db/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/042b0fab8c7f5b69556fc41df1793475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02bd04e2df1f9f35d1cccf705c239d8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5eb17ba52c1bcd7685c99366ab1c6137/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3215fc9bda6bd4470b5652d5c9a87bb4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/94d21c18f19c7ab7e88b97e6637cfe54/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e7efc74efeb2073de40731b911f79c95/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4d46d18287ecb4b729bddc54207ea0b4/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9172e08400b60dbfb02f2acad2b8de1/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:5:5-48
-		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
 		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:4:5-51
 	android:versionCode
 		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:1-49:12
-		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:3:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:8:5-65
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:8:22-62
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:7:22-62
 uses-feature#android.hardware.camera.any
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:11:5-64
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:10:5-64
+	android:name
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:10:19-61
+uses-feature#android.hardware.camera.raw
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:11:5-89
+	android:required
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:11:62-86
 	android:name
 		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:11:19-61
-uses-feature#android.hardware.camera.raw
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:12:5-89
-	android:required
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:12:62-86
-	android:name
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:12:19-61
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:13:5-14:40
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:12:5-13:40
 	tools:ignore
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:13:9-37
 	android:name
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:12:22-78
 application
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:16:5-47:19
-MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/transforms-3/4f8ee4c5d3dae83008d818814c4608c1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/transforms-3/4f8ee4c5d3dae83008d818814c4608c1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/fbb417e3216afad3c9045fbd63f72947/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/fbb417e3216afad3c9045fbd63f72947/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/transforms-3/d20b483baa4f3aac94c19b67e5f4102f/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
-MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/transforms-3/d20b483baa4f3aac94c19b67e5f4102f/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/97508e5ca2dc89a7fffc4ae626aa72d7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/97508e5ca2dc89a7fffc4ae626aa72d7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/7685e605287b50cbc89a72c9ada52697/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/7685e605287b50cbc89a72c9ada52697/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:15:5-47:19
+INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:15:5-47:19
+MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/018a261955620e5c2ab39ae015187272/transformed/material-1.4.0-beta01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/018a261955620e5c2ab39ae015187272/transformed/material-1.4.0-beta01/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91f641883bfcb3b508aad3ede23b631d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91f641883bfcb3b508aad3ede23b631d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fdf23a2daadfb26d37fe35c3fa90a150/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fdf23a2daadfb26d37fe35c3fa90a150/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b8ffd60201fc3d62a42e8a16d276b889/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b8ffd60201fc3d62a42e8a16d276b889/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7f6d2bccec168385fc143534d0e602c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7f6d2bccec168385fc143534d0e602c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f291948614ec11e348b308b08ba2af3d/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f291948614ec11e348b308b08ba2af3d/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:19:9-41
-	android:fullBackupContent
 		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:18:9-41
+	android:fullBackupContent
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:17:9-41
 	tools:ignore
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:21:9-48
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:20:9-48
 	android:icon
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:20:9-47
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:19:9-47
 	android:allowBackup
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:16:9-35
 activity#com.example.android.camera2.basic.CameraActivity
-ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:23:9-36:20
+ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:22:9-36:20
 	android:screenOrientation
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:27:13-51
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:26:13-51
 	android:clearTaskOnLaunch
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:25:13-45
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:24:13-45
+	android:exported
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:28:13-36
 	android:configChanges
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:28:13-79
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:27:13-79
 	android:theme
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:26:13-44
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:25:13-44
 	android:name
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:24:13-76
+		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:23:13-76
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml:31:13-34:29
 action#android.intent.action.MAIN
@@ -192,245 +188,239 @@ uses-sdk
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
-MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/eec2b5bb6bd3447c8a796daac440da3f/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/0e3f38879075d9c6eeb2c33e8bfec715/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/23164f8463c7ab87f18dfea0643f6ada/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/931bdfde02c90617dfc2803824ab066e/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/931bdfde02c90617dfc2803824ab066e/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/transforms-3/7a4da1315679ee71500c774dfb55e568/transformed/material-1.4.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/transforms-3/4f8ee4c5d3dae83008d818814c4608c1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/transforms-3/4f8ee4c5d3dae83008d818814c4608c1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/3e0b91d563dcbad1c20f503b0add4e50/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/3e0b91d563dcbad1c20f503b0add4e50/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/f217b0a43407bd18f5bfd57e50a6de6e/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/f217b0a43407bd18f5bfd57e50a6de6e/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/f7fb875a8de4dca7f64928577b7b7556/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/f7fb875a8de4dca7f64928577b7b7556/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/0a3d59a850b26901820a70ce438515e6/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/0a3d59a850b26901820a70ce438515e6/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/6d1087e7589f190deb05d8d4d3d94f6a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/6d1087e7589f190deb05d8d4d3d94f6a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/697d8860e94cb804fc6039902b09006e/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/697d8860e94cb804fc6039902b09006e/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e17eda4fdb02cf448c7a9b28c9793a89/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e17eda4fdb02cf448c7a9b28c9793a89/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/fbb417e3216afad3c9045fbd63f72947/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/fbb417e3216afad3c9045fbd63f72947/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/transforms-3/d20b483baa4f3aac94c19b67e5f4102f/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/transforms-3/d20b483baa4f3aac94c19b67e5f4102f/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a18685307a74a0358b9f145b6586bfc5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a18685307a74a0358b9f145b6586bfc5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/3072b3efbfe3ebc9df0a92c2648fb0db/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/transforms-3/3072b3efbfe3ebc9df0a92c2648fb0db/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/3df6bf2cee582ae171f102568da79b1e/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/3df6bf2cee582ae171f102568da79b1e/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/fb8468fb5b44224a2cbdb12d6854117a/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/fb8468fb5b44224a2cbdb12d6854117a/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/f57ce1c5ff51a8b2a43757ec2ec24625/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/f57ce1c5ff51a8b2a43757ec2ec24625/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/27d991b44e8d17b9a8b6cd5118da229b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/27d991b44e8d17b9a8b6cd5118da229b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/348313614aa3295c546d0f9451a597fb/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/transforms-3/348313614aa3295c546d0f9451a597fb/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/64faf7c93ed8114c07455ab2c3347720/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/64faf7c93ed8114c07455ab2c3347720/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/fd124211b708b5e8f399cf1736062a39/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/fd124211b708b5e8f399cf1736062a39/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/ad490b1a80c3f8970dc869a4410a91a2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/ad490b1a80c3f8970dc869a4410a91a2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a78e8fd38e21dca68efbfc329e41e5f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a78e8fd38e21dca68efbfc329e41e5f7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/2ab779dec8739ceea892a6a97e6653f6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/2ab779dec8739ceea892a6a97e6653f6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/12d723ede5de0e755867a90610f27a8c/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/12d723ede5de0e755867a90610f27a8c/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/244c9adb17124a649f8ab875c93e4b3b/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/244c9adb17124a649f8ab875c93e4b3b/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/8b3495b599ce91a1b2092efebd0362ef/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/8b3495b599ce91a1b2092efebd0362ef/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/c10ac63a94339fb7f10e7b3827d3de69/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/c10ac63a94339fb7f10e7b3827d3de69/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/07a2a1d2e539550d23010842ddb21133/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/transforms-3/07a2a1d2e539550d23010842ddb21133/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/50731bb016f272319d8c43abb3e9dcc8/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/50731bb016f272319d8c43abb3e9dcc8/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/12bc442d55686baab4d3fa39fbc65500/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/transforms-3/12bc442d55686baab4d3fa39fbc65500/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/622128fc3d0ba9a7c2ec46642d3a7be0/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/622128fc3d0ba9a7c2ec46642d3a7be0/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/24582cbef64fcd1ffb571452baedf662/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/24582cbef64fcd1ffb571452baedf662/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/a3bf88465f47639617e6fa70106e1bd7/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/a3bf88465f47639617e6fa70106e1bd7/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/2f506fddbeeef4292fbe4f9a2a7397fa/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/2f506fddbeeef4292fbe4f9a2a7397fa/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/da1d91d28d4d0bd25a788fadd3636f18/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/da1d91d28d4d0bd25a788fadd3636f18/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/5c7b053fdf1fcd3b23f2f4165c92cc46/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/5c7b053fdf1fcd3b23f2f4165c92cc46/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/893df82669c6d43ad751165f6abae57b/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/893df82669c6d43ad751165f6abae57b/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a0fe36620b505445a9df529a9712865a/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a0fe36620b505445a9df529a9712865a/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/94dd60a9f459fe10bea019f681bb1521/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/94dd60a9f459fe10bea019f681bb1521/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/67aeeb616cd5d4a05105c1033ccc1369/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/67aeeb616cd5d4a05105c1033ccc1369/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/065a9f3f6eeca4b051aab3bc10f38c99/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/065a9f3f6eeca4b051aab3bc10f38c99/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/71cb514a5fbd0ee8ebe45c8f12de6d1a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/71cb514a5fbd0ee8ebe45c8f12de6d1a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/1ee6deeb04cdc9b3e95368e47db7c03c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/1ee6deeb04cdc9b3e95368e47db7c03c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/93e49dce7d6d9bde062f02fbeef112d5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/93e49dce7d6d9bde062f02fbeef112d5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/aaaffc22efeafa97d0fc9929c2c53237/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/transforms-3/aaaffc22efeafa97d0fc9929c2c53237/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e900a46460439d2fd8aa1384dbaf4d28/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/e900a46460439d2fd8aa1384dbaf4d28/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/11c1564683d6bb3cb457413f0ab50c84/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/11c1564683d6bb3cb457413f0ab50c84/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/d031e1f23eb5085f848baf8b6c60a32f/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/transforms-3/d031e1f23eb5085f848baf8b6c60a32f/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/transforms-3/69db45eef7279f69dedd6f74551f2f83/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:6:5-8:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/transforms-3/69db45eef7279f69dedd6f74551f2f83/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a1f5216837a159b52eaa6ba3bde2e168/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/a1f5216837a159b52eaa6ba3bde2e168/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/97508e5ca2dc89a7fffc4ae626aa72d7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/97508e5ca2dc89a7fffc4ae626aa72d7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/7685e605287b50cbc89a72c9ada52697/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/transforms-3/7685e605287b50cbc89a72c9ada52697/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/59bc2f27a0afad24d8d011ea228df7a3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/59bc2f27a0afad24d8d011ea228df7a3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/69f174b1357245d0f302223c1551a8fb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/69f174b1357245d0f302223c1551a8fb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/892c15765740daf8de5ac65eb47bd10f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/892c15765740daf8de5ac65eb47bd10f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/554569b6e169be1b029d79d35379195f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/554569b6e169be1b029d79d35379195f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/b4b462115be8fc9ca4d0fd1fa52723c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/b4b462115be8fc9ca4d0fd1fa52723c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/eedfb60680450edd381b76de6fbd6e26/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/eedfb60680450edd381b76de6fbd6e26/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/4e93935c97e47bfe843d8ff58fa5c972/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/transforms-3/4e93935c97e47bfe843d8ff58fa5c972/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/59ad98484f66b0f3f71325935944b707/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/59ad98484f66b0f3f71325935944b707/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/02fa28acce79057e4a72e4bb8d7f4bec/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
-MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/transforms-3/02fa28acce79057e4a72e4bb8d7f4bec/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
-INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
+MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:5-44
+MERGED from [:utils] /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/utils/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3cfb624291680af8750aba7606308d5c/transformed/jetified-viewbinding-8.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3cfb624291680af8750aba7606308d5c/transformed/jetified-viewbinding-8.9.2/AndroidManifest.xml:5:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/0dd9655b9d579d889dc300d97ca68fb9/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/0dd9655b9d579d889dc300d97ca68fb9/transformed/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/45cd33de6a21ba874a924c48d1dd441b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/45cd33de6a21ba874a924c48d1dd441b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e346a5f1332155647c0aa5b4fafbc4fe/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e346a5f1332155647c0aa5b4fafbc4fe/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/018a261955620e5c2ab39ae015187272/transformed/material-1.4.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-beta01] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/018a261955620e5c2ab39ae015187272/transformed/material-1.4.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91f641883bfcb3b508aad3ede23b631d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91f641883bfcb3b508aad3ede23b631d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/afbb1a33f91c004729e77f77dd930c76/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/afbb1a33f91c004729e77f77dd930c76/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8152d4896d9ae8aad07bd3ff486b03eb/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8152d4896d9ae8aad07bd3ff486b03eb/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9e0b5a661f3844597a32bc8c15c2193b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9e0b5a661f3844597a32bc8c15c2193b/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4130f3ec9e53b8e836c7c44c1b574336/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4130f3ec9e53b8e836c7c44c1b574336/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4af5fc505eb0c6edf47ace0b706afe2a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4af5fc505eb0c6edf47ace0b706afe2a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ae4b0bbff0d39e42afb6b00520284798/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ae4b0bbff0d39e42afb6b00520284798/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/de3756e3ca803a3713042c6b424d6d06/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/de3756e3ca803a3713042c6b424d6d06/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fdf23a2daadfb26d37fe35c3fa90a150/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fdf23a2daadfb26d37fe35c3fa90a150/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b8ffd60201fc3d62a42e8a16d276b889/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b8ffd60201fc3d62a42e8a16d276b889/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/865e2aafb714b4cb91519b6a512abdc6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/865e2aafb714b4cb91519b6a512abdc6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/221db1ad100efe4295154b2aabf34c3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/221db1ad100efe4295154b2aabf34c3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e355053f5576aa1a02b2843a55f3bf8/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e355053f5576aa1a02b2843a55f3bf8/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4faafda329600bf41a2207febc8a3764/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4faafda329600bf41a2207febc8a3764/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/03b22de2c0f4b2df3dd2e774c0c88113/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/03b22de2c0f4b2df3dd2e774c0c88113/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fd28372231e4d624c22ffb87fb359b2d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/fd28372231e4d624c22ffb87fb359b2d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02ad066f813b4e7057c8b02b2df5d0cf/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02ad066f813b4e7057c8b02b2df5d0cf/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a353c14d664806ca118dd9057facf48d/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a353c14d664806ca118dd9057facf48d/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/58f3716810a422073c3c673739df5be0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/58f3716810a422073c3c673739df5be0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/12fcf025b3fc11a76c0be2eea3b51422/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/12fcf025b3fc11a76c0be2eea3b51422/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7a491df82b5676a3a8b9bc742914a884/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7a491df82b5676a3a8b9bc742914a884/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8786274a3dfe09f35dac5460cf8991e5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/8786274a3dfe09f35dac5460cf8991e5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a5e6625a592d36646f10f756d52d7993/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a5e6625a592d36646f10f756d52d7993/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c75107318f0a30d5f94e2d8a5de6192e/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c75107318f0a30d5f94e2d8a5de6192e/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f2bbb64e55f7d2d3a83cc96b0c3b935c/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f2bbb64e55f7d2d3a83cc96b0c3b935c/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/87a1259df19268257e16fed28f939198/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/87a1259df19268257e16fed28f939198/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/dbf3f63a128c38b36ce994c364f82ebb/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/dbf3f63a128c38b36ce994c364f82ebb/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9b9531bf238c3abbc030e18a29ee48d9/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/9b9531bf238c3abbc030e18a29ee48d9/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c778f38a59f03e522238d3d33717c080/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/c778f38a59f03e522238d3d33717c080/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91b38a1ac332fd37a00fe751e4a1626c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/91b38a1ac332fd37a00fe751e4a1626c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/93687eef54d9cf2813dbfa9c3e9c2b4b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/93687eef54d9cf2813dbfa9c3e9c2b4b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/73a313f13a98f2907907cb4a2d43fe8b/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/73a313f13a98f2907907cb4a2d43fe8b/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5cc16e073ee0ff3990f8e4dd34b72c91/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5cc16e073ee0ff3990f8e4dd34b72c91/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6b5e477a04c06dba94f7b55b85e091f0/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6b5e477a04c06dba94f7b55b85e091f0/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6882e4a052a0052a537376ff46872497/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6882e4a052a0052a537376ff46872497/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2475695105f59206ce5f1a1fbf3e1135/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2475695105f59206ce5f1a1fbf3e1135/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b83ddfc2acb1c6aab1e53e1b23f19d9a/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b83ddfc2acb1c6aab1e53e1b23f19d9a/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e228b09c0cf434ba89eac7ef6da84fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6e228b09c0cf434ba89eac7ef6da84fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2d6e0cb19c67557f8a7e42111b1049c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2d6e0cb19c67557f8a7e42111b1049c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9269ec6bbf0ec2b78cf6170ae6757d9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9269ec6bbf0ec2b78cf6170ae6757d9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/33f0fbfeba68ff3b1a1730ab812d70e4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/33f0fbfeba68ff3b1a1730ab812d70e4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/713019c79c68f867d93d0c0bd4d47a19/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/713019c79c68f867d93d0c0bd4d47a19/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6cf3ada999fe4b47064e6834c9927560/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/6cf3ada999fe4b47064e6834c9927560/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3ecffc7028f8115b91c464299d541794/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3ecffc7028f8115b91c464299d541794/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/bb78456f2d3bd44bdbb8e82ca3162402/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/bb78456f2d3bd44bdbb8e82ca3162402/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/77792d5f2ea2035568ff5030edded749/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/77792d5f2ea2035568ff5030edded749/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4581f7d22579bb21520d48c333c879e1/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4581f7d22579bb21520d48c333c879e1/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2de5bff5363bab203ed5de5e2a99c983/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:6:5-8:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/2de5bff5363bab203ed5de5e2a99c983/transformed/jetified-android-gif-drawable-1.2.17/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5694f6d13756cfcf2e9587e6dddbfedf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5694f6d13756cfcf2e9587e6dddbfedf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7f6d2bccec168385fc143534d0e602c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/7f6d2bccec168385fc143534d0e602c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f291948614ec11e348b308b08ba2af3d/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/f291948614ec11e348b308b08ba2af3d/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ef67ae135007d70726de78eed421c7db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/ef67ae135007d70726de78eed421c7db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/042b0fab8c7f5b69556fc41df1793475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/042b0fab8c7f5b69556fc41df1793475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02bd04e2df1f9f35d1cccf705c239d8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/02bd04e2df1f9f35d1cccf705c239d8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5eb17ba52c1bcd7685c99366ab1c6137/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5eb17ba52c1bcd7685c99366ab1c6137/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3215fc9bda6bd4470b5652d5c9a87bb4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/3215fc9bda6bd4470b5652d5c9a87bb4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/94d21c18f19c7ab7e88b97e6637cfe54/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/94d21c18f19c7ab7e88b97e6637cfe54/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e7efc74efeb2073de40731b911f79c95/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/e7efc74efeb2073de40731b911f79c95/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4d46d18287ecb4b729bddc54207ea0b4/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/4d46d18287ecb4b729bddc54207ea0b4/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9172e08400b60dbfb02f2acad2b8de1/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/b9172e08400b60dbfb02f2acad2b8de1/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/luciocoronato/Documents/GitHub/Espectrometro-LOFT/Version Java 17/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/transforms-3/e2341a03e8c744dcf22faa02979547aa/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8beb647ec6f03af60033d988b62191b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/transforms-3/d635b8e77b9eaf039b548d6119bae62d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/5db95ba935937d5389b991876879d1e4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/transforms-3/0ccf9ecbb9c5f36607a58e69e79fec5b/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/076e3f84846965907205992ed4f60206/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 permission#com.android.example.camera2.basic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 uses-permission#com.android.example.camera2.basic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/transforms-3/412863badd10200ea2d420029930e3c9/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.10.1] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/28fcd32d0fd62d7c3b7be43fa9c9a9e8/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/transforms-3/9b06e554f93b560f46d7cbda3dd91057/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/luciocoronato/.gradle/caches/8.11.1/transforms/a8145d2beb79fe7832549ecebb60651f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

@@ -102,20 +102,20 @@ class Autorotar (myBitmap: Bitmap){
 
 
         val deltaIzq = listOf(kotlin.math.abs(posicionDeListasDeIntensidadesSaturadas),500).min()  //INE: Por qué el mínimo entre la posición en x donde están las últimas intensidades saturadas y 500?
-        val deltaDer = listOf(kotlin.math.abs(posicionDeListasDeIntensidadesSaturadas-ancho),500).min()
+        //val deltaDer = listOf(kotlin.math.abs(posicionDeListasDeIntensidadesSaturadas-ancho),500).min()
         //Nos paramos en el centro del patron (region saturada). Vamos a recortar 500 en ambas direcciones para mejorar el ajuste de la recta.
         //val listaDeXFiltrada = (0..(((posicionDeListasDeIntensidadesSaturadas-deltaIzq)/5).toInt()))+(((posicionDeListasDeIntensidadesSaturadas+deltaDer)/5).toInt() until ancho/5)
         val listaDeXFiltrada = (0..((posicionDeListasDeIntensidadesSaturadas-deltaIzq)/5)).toList()
 
         println("LISTA X FILTRADA   " +listaDeXFiltrada.size)
         println("LISTA Y   "+listaDePosicionesEIntensidadesMaximas.size)
-        val L = listaDeXFiltrada.size
+        //val L = listaDeXFiltrada.size
         var x : Int
-        var x1 : Int
+        //var x1 : Int
         val lista = (0 until (ancho-1)/5).toList()
         for (n in 0 until (lista.size-1)) {
             x=lista[n]
-            x1=lista[n+1]
+            //x1=lista[n+1]
             if (x !in listaDeXFiltrada) {
                 continue
             }
